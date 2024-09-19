@@ -1,0 +1,828 @@
+
+.sec-dfrnt_services {
+    margin-top: 100px;
+  
+}
+.Two-services{
+    margin-top: 70px;
+}
+.services-up {
+    display: flex;
+    /* justify-content: space-evenly; */
+gap: 200px;
+margin-bottom: 50px;
+}
+.services-down {
+    display: flex;
+ 
+gap: 200px;
+}
+.up-1, .up-2, .up-3 {
+    display: flex;
+    position: relative;
+    gap: 30px;
+}
+.down-1, .down-2, .down-3 {
+    display: flex;
+    position: relative;
+    gap: 30px;
+}
+
+.up-1::before {
+    content: "\f46d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.up-2::before {
+    content: "\f5c9";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.up-3::before {
+    content: "\f004";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+
+.down-1::before {
+    content: "\f2a2";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.down-2::before {
+    content: "\f06e";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.down-3::before {
+    content: "\f043";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.up-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.up-texts h1 {
+    font-size: 24px;
+    margin: 0; 
+}
+
+.up-texts p {
+    font-size: 16px;
+}
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+@media only screen and (min-width: 280px) and (max-width: 575.98px) {
+
+    
+.sec-dfrnt_services {
+    margin-top: 100px;
+  
+}
+.Two-services{
+    margin-top: 70px;
+}
+.services-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-evenly; */
+gap: 50px;
+margin-bottom: 50px;
+}
+.services-down {
+    display: flex;
+    flex-direction: column;
+ justify-content: center;
+ align-items: center;
+gap: 50px;
+}
+.up-1, .up-2, .up-3 {
+    display: flex;
+    position: relative;
+    gap: 30px;
+}
+.down-1, .down-2, .down-3 {
+    display: flex;
+    position: relative;
+    gap: 30px;
+}
+
+.up-1::before {
+    content: "\f46d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.up-2::before {
+    content: "\f5c9";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.up-3::before {
+    content: "\f004";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+
+.down-1::before {
+    content: "\f2a2";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.down-2::before {
+    content: "\f06e";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.down-3::before {
+    content: "\f043";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.up-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.up-texts h1 {
+    font-size: 24px;
+    margin: 0; 
+}
+
+.up-texts p {
+    font-size: 16px;
+}
+
+}
+ /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+
+     
+.sec-dfrnt_services {
+    margin-top: 100px;
+  
+}
+.Two-services{
+    margin-top: 70px;
+}
+.services-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-evenly; */
+gap: 50px;
+margin-bottom: 50px;
+}
+.services-down {
+    display: flex;
+    flex-direction: column;
+ justify-content: center;
+ align-items: center;
+gap: 50px;
+}
+.up-1, .up-2, .up-3 {
+    display: flex;
+    position: relative;
+    gap: 30px;
+}
+.down-1, .down-2, .down-3 {
+    display: flex;
+    position: relative;
+    gap: 30px;
+}
+
+.up-1::before {
+    content: "\f46d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.up-2::before {
+    content: "\f5c9";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.up-3::before {
+    content: "\f004";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+
+.down-1::before {
+    content: "\f2a2";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.down-2::before {
+    content: "\f06e";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.down-3::before {
+    content: "\f043";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.up-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.up-texts h1 {
+    font-size: 24px;
+    margin: 0; 
+}
+
+.up-texts p {
+    font-size: 16px;
+}
+
+}
+ /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+
+    
+.sec-dfrnt_services {
+    margin-top: 100px;
+  
+}
+.Two-services{
+    margin-top: 70px;
+}
+.services-up {
+    display: flex;
+    flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+gap: 50px;
+margin-bottom: 50px;
+}
+.services-down {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   gap: 50px;
+ 
+
+}
+.up-1, .up-2, .up-3 {
+    display: flex;
+    position: relative;
+    gap: 30px;
+}
+.down-1, .down-2, .down-3 {
+    display: flex;
+    position: relative;
+    gap: 30px;
+}
+
+.up-1::before {
+    content: "\f46d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.up-2::before {
+    content: "\f5c9";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.up-3::before {
+    content: "\f004";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+
+.down-1::before {
+    content: "\f2a2";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.down-2::before {
+    content: "\f06e";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.down-3::before {
+    content: "\f043";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.up-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.up-texts h1 {
+    font-size: 24px;
+    margin: 0; 
+}
+
+.up-texts p {
+    font-size: 16px;
+}
+
+
+}
+ /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 992px) and (max-width: 1200.98px) {
+    
+.sec-dfrnt_services {
+    margin-top: 100px;
+  
+}
+.Two-services{
+    margin-top: 70px;
+}
+.services-up {
+    display: flex;
+    /* justify-content: space-evenly; */
+gap: 50px;
+margin-bottom: 50px;
+}
+.services-down {
+    display: flex;
+ 
+gap: 50px;
+}
+.up-1, .up-2, .up-3 {
+    display: flex;
+    position: relative;
+    gap: 30px;
+}
+.down-1, .down-2, .down-3 {
+    display: flex;
+    position: relative;
+    gap: 30px;
+}
+
+.up-1::before {
+    content: "\f46d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.up-2::before {
+    content: "\f5c9";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.up-3::before {
+    content: "\f004";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+
+.down-1::before {
+    content: "\f2a2";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.down-2::before {
+    content: "\f06e";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.down-3::before {
+    content: "\f043";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.up-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.up-texts h1 {
+    font-size: 24px;
+    margin: 0; 
+}
+
+.up-texts p {
+    font-size: 16px;
+}
+
+}
+ /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 1201px) and (max-width: 1300.98px) {
+    
+.sec-dfrnt_services {
+    margin-top: 100px;
+  
+}
+.Two-services{
+    margin-top: 70px;
+}
+.services-up {
+    display: flex;
+    /* justify-content: space-evenly; */
+gap: 100px;
+margin-bottom: 50px;
+}
+.services-down {
+    display: flex;
+ 
+gap: 100px;
+}
+.up-1, .up-2, .up-3 {
+    display: flex;
+    position: relative;
+    gap: 30px;
+}
+.down-1, .down-2, .down-3 {
+    display: flex;
+    position: relative;
+    gap: 30px;
+}
+
+.up-1::before {
+    content: "\f46d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.up-2::before {
+    content: "\f5c9";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.up-3::before {
+    content: "\f004";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+
+.down-1::before {
+    content: "\f2a2";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.down-2::before {
+    content: "\f06e";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.down-3::before {
+    content: "\f043";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: rgba(27, 118, 209, 1); 
+    position: relative;
+    top: -10px; 
+    left: 0;
+}
+
+.up-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.up-texts h1 {
+    font-size: 24px;
+    margin: 0; 
+}
+
+.up-texts p {
+    font-size: 16px;
+}
+
+}
+ /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 1301px) and (max-width: 1500.98px) {
+
+    .sec-dfrnt_services {
+        margin-top: 100px;
+      
+    }
+    .Two-services{
+        margin-top: 70px;
+    }
+    .services-up {
+        display: flex;
+        justify-content: center;
+        /* justify-content: space-evenly; */
+    gap: 100px;
+    margin-bottom: 50px;
+    }
+    .services-down {
+        display: flex;
+     justify-content: center;
+    gap: 100px;
+    }
+    .up-1, .up-2, .up-3 {
+        display: flex;
+        position: relative;
+        gap: 30px;
+    }
+    .down-1, .down-2, .down-3 {
+        display: flex;
+        position: relative;
+        gap: 30px;
+    }
+    
+    .up-1::before {
+        content: "\f46d";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 45px;
+        color: rgba(27, 118, 209, 1); 
+        position: relative;
+        top: -10px; 
+        left: 0;
+    }
+    
+    .up-2::before {
+        content: "\f5c9";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 45px;
+        color: rgba(27, 118, 209, 1); 
+        position: relative;
+        top: -10px; 
+        left: 0;
+    }
+    
+    .up-3::before {
+        content: "\f004";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 45px;
+        color: rgba(27, 118, 209, 1); 
+        position: relative;
+        top: -10px; 
+        left: 0;
+    }
+    
+    
+    .down-1::before {
+        content: "\f2a2";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 45px;
+        color: rgba(27, 118, 209, 1); 
+        position: relative;
+        top: -10px; 
+        left: 0;
+    }
+    
+    .down-2::before {
+        content: "\f06e";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 45px;
+        color: rgba(27, 118, 209, 1); 
+        position: relative;
+        top: -10px; 
+        left: 0;
+    }
+    
+    .down-3::before {
+        content: "\f043";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 45px;
+        color: rgba(27, 118, 209, 1); 
+        position: relative;
+        top: -10px; 
+        left: 0;
+    }
+    
+    .up-texts {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .up-texts h1 {
+        font-size: 24px;
+        margin: 0; 
+    }
+    
+    .up-texts p {
+        font-size: 16px;
+    }
+    
+    
+}

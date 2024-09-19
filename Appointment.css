@@ -1,0 +1,1190 @@
+
+  .sec-apnmt {
+    margin-top: 80px;
+}
+/* .row{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+.btn-11{
+  border: solid;
+  border-width: 1px;
+
+  height: 50px;
+  width: 270px;
+  /* background-color: white; */
+}
+
+
+.second{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form{
+ width: 100%;
+    margin-top: 50px;
+ gap: 20px;
+}
+.left-column{
+    display: flex;
+    justify-content: flex-start;
+}
+
+  .row-item1 input{
+    border: 1px solid #c4cae0;
+  
+    border-radius: 3px;
+    height: 50px;
+    width: 268px;
+  }
+  .row-item1{
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .row-item2 input{
+
+    border: 1px solid #c4cae0;
+    border-radius: 3px;
+    height: 50px;
+    width: 268px;
+
+  }
+  input{
+    padding: 10px;
+  }
+  textarea{
+    width: 90%;
+    padding: 10px;
+  }
+  .row-item2{
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .row-item3 input{
+    margin-bottom: 10px;
+    border: 1px solid #c4cae0;
+    border-radius: 3px;
+    height: 50px;
+    width: 268px;
+  }
+  .row-item3{
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .row-item4 textarea{
+    border-radius: 3px;
+    border: 1px solid #c4cae0;
+  }
+  .row-item4{
+    display: flex;
+
+    flex-wrap: wrap;
+    
+  }
+  
+  .row-item5 button{
+   height: 50px;
+   width: 200px;
+   border: 1px solid #c4cae0;
+   border-radius: 3px;
+   background-color:  rgba(27,118,209,255);
+   color:white;
+   font-size: 14px;
+  }
+  .row-item5 p{
+    font-size: 14px;
+    margin-bottom: 0;
+    padding-top: 5px;
+    display: inline-block;
+  }
+  .row-item5{
+    display: flex;
+ 
+    align-items: center;
+    flex-wrap: wrap;
+       gap: 90px;
+  }
+  ::placeholder{
+    padding: 10px;
+    font-size: 14px;
+    
+  }
+  .depart {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .depart::after {
+    content: "\f078"; 
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    right: 5%; 
+    font-size: 10px; 
+    top: 25%;
+    color: dimgray; 
+  }
+
+  .doctor{
+    position: relative;
+    display: flex;
+    align-items: center;
+   
+  
+  }
+  .doctor::after {
+    content: "\f078"; 
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    right: 5%; 
+    top: 25%;
+    font-size: 10px; 
+    color: dimgray; 
+  }
+
+.appointment-img{
+    width: 100%;
+    height: 100%; 
+  }
+  .appointment-img img{
+    width: 600px;
+    height: 560px;
+    object-fit: cover;
+  }
+
+
+
+  /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+  @media only screen and (min-width: 280px) and (max-width: 575.98px) {
+
+    
+  .sec-apnmt {
+    margin-top: 80px;
+}
+.row{
+    /* margin-bottom: 10px; */
+    display: flex;
+    justify-content: center;
+   
+}
+.form{
+
+    margin-top: 50px;
+ gap: 20px;
+}
+.second{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.left-column{
+    display: flex;
+    justify-content: center;
+    
+}
+
+  .row-item1 input{
+    border: 1px solid #c4cae0;
+  
+    border-radius: 3px;
+    height: 50px;
+    width: 350px;
+  }
+  .row-item1{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .row-item2 input{
+
+    border: 1px solid #c4cae0;
+    border-radius: 3px;
+    height: 50px;
+    width: 350px;
+
+  }
+  .row-item2{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .row-item3 input{
+
+    border: 1px solid #c4cae0;
+    border-radius: 3px;
+    height: 50px;
+    width: 350px;
+  }
+  .row-item3{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .row-item4 textarea{
+    border-radius: 3px;
+    border: 1px solid #c4cae0;
+    width: 350px;
+
+  }
+  .row-item4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+    
+  }
+  
+  .row-item5 button{
+   height: 50px;
+   width: 200px;
+   border: 1px solid #c4cae0;
+   border-radius: 3px;
+   background-color:  rgba(27,118,209,255);
+   color:white;
+   font-size: 14px;
+  }
+  .row-item5 p{
+    font-size: 14px;
+    margin-bottom: 0;
+    padding-top: 5px;
+    display: inline-block;
+  }
+  .row-item5{
+    display: flex;
+ justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+       gap: 20px;
+  }
+ ::placeholder{
+    font-size: 15px;
+  }
+  input{
+    padding: 10px;
+  }
+  textarea{
+    padding: 10px;
+  }
+  .depart {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .depart::after {
+    content: "\f078"; 
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    right: 5%; 
+    font-size: 10px; 
+    top: 25%;
+    color: dimgray; 
+  }
+
+  .doctor{
+    position: relative;
+    display: flex;
+    align-items: center;
+   
+  
+  }
+  .doctor::after {
+    content: "\f078"; 
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    right: 5%; 
+    top: 25%;
+    font-size: 10px; 
+    color: dimgray; 
+  }
+
+.appointment-img{
+    width: 100%;
+    height: 100%; 
+  }
+  .appointment-img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  }
+ /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+
+  
+  .sec-apnmt {
+    margin-top: 80px;
+}
+.row{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.form{
+ width: 100%;
+    margin-top: 50px;
+ gap: 20px;
+}
+.left-column{
+    display: flex;
+    justify-content: center;
+    
+}
+.second{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+  .row-item1 input{
+    border: 1px solid #c4cae0;
+  
+    border-radius: 3px;
+    height: 50px;
+    width: 350px;
+  }
+  .row-item1{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .row-item2 input{
+
+    border: 1px solid #c4cae0;
+    border-radius: 3px;
+    height: 50px;
+    width: 350px;
+
+  }
+  .row-item2{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .row-item3 input{
+  
+    border: 1px solid #c4cae0;
+    border-radius: 3px;
+    height: 50px;
+    width: 350px;
+  }
+  .row-item3{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .row-item4 textarea{
+    border-radius: 3px;
+    border: 1px solid #c4cae0;
+    width: 350px;
+
+  }
+  .row-item4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+    
+  }
+  
+  .row-item5 button{
+   height: 50px;
+   width: 200px;
+   border: 1px solid #c4cae0;
+   border-radius: 3px;
+   background-color:  rgba(27,118,209,255);
+   color:white;
+   font-size: 14px;
+  }
+  .row-item5 p{
+    font-size: 14px;
+    margin-bottom: 0;
+    padding-top: 5px;
+    display: inline-block;
+  }
+  .row-item5{
+    display: flex;
+    flex-direction: column;
+ justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+       gap: 20px;
+  }
+  ::placeholder{
+    padding: 10px;
+    font-size: 14px;
+    
+  }
+  textarea{
+    padding: 10px;
+  }
+  input{
+    padding: 10px;
+  }
+  .depart {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .depart::after {
+    content: "\f078"; 
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    right: 5%; 
+    font-size: 10px; 
+    top: 25%;
+    color: dimgray; 
+  }
+
+  .doctor{
+    position: relative;
+    display: flex;
+    align-items: center;
+   
+  
+  }
+  .doctor::after {
+    content: "\f078"; 
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    right: 5%; 
+    top: 25%;
+    font-size: 10px; 
+    color: dimgray; 
+  }
+
+.appointment-img{
+    width: 100%;
+    height: 100%; 
+  }
+  .appointment-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+ /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+
+  
+  .sec-apnmt {
+    margin-top: 80px;
+}
+.second{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form{
+ width: 100%;
+    margin-top: 50px;
+    gap: 20px;
+ 
+}
+.left-column{
+
+    display: flex;
+    justify-content:center;
+    
+}
+
+  .row-item1 input{
+    border: 1px solid #c4cae0;
+  
+    border-radius: 3px;
+    height: 50px;
+    width: 100%;
+  }
+  .row-item1{
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .row-item2 input{
+
+    border: 1px solid #c4cae0;
+    border-radius: 3px;
+    height: 50px;
+    width: 100%;
+
+  }
+  .row-item2{
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .row-item3 input{
+    margin-bottom: 10px;
+    border: 1px solid #c4cae0;
+    border-radius: 3px;
+    height: 50px;
+    width: 100%;
+  }
+  .row-item3{
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    gap: 15px;
+  }
+  input{
+    padding: 10px;
+  }
+  textarea{
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .row-item4 textarea{
+    border-radius: 3px;
+    border: 1px solid #c4cae0;
+  }
+  .row-item4{
+    display: flex;
+
+    flex-wrap: wrap;
+    
+  }
+  
+  .row-item5 button{
+   height: 50px;
+   width: 200px;
+   border: 1px solid #c4cae0;
+   border-radius: 3px;
+   background-color:  rgba(27,118,209,255);
+   color:white;
+   font-size: 14px;
+  }
+  .row-item5 p{
+    font-size: 14px;
+    margin-bottom: 0;
+    padding-top: 5px;
+    display: inline-block;
+  }
+  .row-item5{
+    display: flex;
+ justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+       gap: 20px;
+  }
+  ::placeholder{
+    padding: 10px;
+    font-size: 14px;
+    
+  }
+  textarea{
+    width: 100%;
+  }
+  .depart input{
+    width: 323px;
+  }
+  .depart {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .depart::after {
+    content: "\f078"; 
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    right: 5%; 
+    font-size: 10px; 
+    top: 25%;
+    color: dimgray; 
+  }
+.doctor input{
+  width: 323px;
+}
+  .doctor{
+    position: relative;
+    display: flex;
+    align-items: center;
+   
+  
+  }
+  .doctor::after {
+    content: "\f078"; 
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    right: 5%; 
+    top: 25%;
+    font-size: 10px; 
+    color: dimgray; 
+  }
+
+.appointment-img{
+width: 100%;
+height: 100%;
+  }
+.appointment-img img{
+    width: 100%;
+    height: auto;
+   
+  } 
+
+
+}
+ /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 992px) and (max-width: 1200.98px) {
+  
+  .sec-apnmt {
+    margin-top: 80px;
+}
+/* .row{
+    margin-bottom: 10px;
+    display: flex;
+    
+    justify-content: space-evenly;
+} */
+
+
+.second{
+  display: flex;
+}
+.form{
+ width: 100%;
+    margin-top: 50px;
+ gap: 10px;
+}
+.left-column{
+    display: flex;
+
+    justify-content: flex-start;
+}
+input{
+  padding: 10px;
+}
+textarea{
+  padding: 10px;
+}
+
+  .row-item1 input{
+    border: 1px solid #c4cae0;
+  
+    border-radius: 3px;
+    height: 50px;
+    width:210px;
+  }
+  .row-item1{
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .row-item2 input{
+
+    border: 1px solid #c4cae0;
+    border-radius: 3px;
+    height: 50px;
+    width:210px;
+
+  }
+  .row-item2{
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .row-item3 input{
+    margin-bottom: 10px;
+    border: 1px solid #c4cae0;
+    border-radius: 3px;
+    height: 50px;
+    width:210px;
+  }
+  .row-item3{
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .row-item4 textarea{
+    border-radius: 3px;
+    border: 1px solid #c4cae0;
+  }
+  .row-item4{
+    display: flex;
+
+    flex-wrap: wrap;
+    
+  }
+  
+  .row-item5 button{
+   height: 50px;
+   width: 200px;
+   border: 1px solid #c4cae0;
+   border-radius: 3px;
+   background-color:  rgba(27,118,209,255);
+   color:white;
+   font-size: 14px;
+  }
+  .row-item5 p{
+    font-size: 14px;
+    margin-bottom: 0;
+    padding-top: 5px;
+    display: inline-block;
+  }
+  .row-item5{
+    display: flex;
+ justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+       gap: 10px;
+  }
+  ::placeholder{
+    padding: 10px;
+    font-size: 14px;
+    
+  }
+  .depart {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .depart::after {
+    content: "\f078"; 
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    right: 5%; 
+    font-size: 10px; 
+    top: 25%;
+    color: dimgray; 
+  }
+
+  .doctor{
+    position: relative;
+    display: flex;
+    align-items: center;
+   
+  
+  }
+  .doctor::after {
+    content: "\f078"; 
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    right: 5%; 
+    top: 25%;
+    font-size: 10px; 
+    color: dimgray; 
+  }
+textarea{
+  width: 98%;
+}
+.appointment-img{
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .appointment-img img{
+    width: 100%;
+    height: auto;
+    /* object-fit: cover; */
+  }
+
+}
+ /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 1201px) and (max-width: 1300.98px) {
+
+
+  .sec-apnmt {
+    margin-top: 80px;
+}
+/* .row{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+.second{
+  display: flex;
+}
+.form{
+ width: 100%;
+    margin-top: 50px;
+ 
+}
+.left-column{
+    display: flex;
+    justify-content: flex-start;
+}
+
+  .row-item1 input{
+    border: 1px solid #c4cae0;
+  
+    border-radius: 3px;
+    height: 50px;
+    width: 259px;
+  }
+  .row-item1{
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .row-item2 input{
+
+    border: 1px solid #c4cae0;
+    border-radius: 3px;
+    height: 50px;
+    width: 259px;
+
+  }
+  .row-item2{
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .row-item3 input{
+    margin-bottom: 10px;
+    border: 1px solid #c4cae0;
+    border-radius: 3px;
+    height: 50px;
+    width: 259px;
+  }
+  .row-item3{
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .row-item4 textarea{
+    border-radius: 3px;
+    border: 1px solid #c4cae0;
+  }
+  .row-item4{
+    display: flex;
+
+    flex-wrap: wrap;
+    
+  }
+  
+  .row-item5 button{
+   height: 50px;
+   width: 200px;
+   border: 1px solid #c4cae0;
+   border-radius: 3px;
+   background-color:  rgba(27,118,209,255);
+   color:white;
+   font-size: 14px;
+  }
+  .row-item5 p{
+    font-size: 14px;
+    margin-bottom: 0;
+    padding-top: 5px;
+    display: inline-block;
+  }
+  .row-item5{
+    display: flex;
+ 
+    align-items: center;
+    flex-wrap: wrap;
+       gap: 50px;
+  }
+  ::placeholder{
+    padding: 10px;
+    font-size: 14px;
+  }
+  input{
+    padding: 10px;
+  }
+  
+  textarea{
+    width:100%;
+    padding: 10px;
+  }
+  .depart {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .depart::after {
+    content: "\f078"; 
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    right: 5%; 
+    font-size: 10px; 
+    top: 25%;
+    color: dimgray; 
+  }
+
+  .doctor{
+    position: relative;
+    display: flex;
+    align-items: center;
+   
+  
+  }
+  .doctor::after {
+    content: "\f078"; 
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    right: 5%; 
+    top: 25%;
+    font-size: 10px; 
+    color: dimgray; 
+  }
+
+.appointment-img{
+    width: 100%;
+    height: 100%; 
+  }
+  .appointment-img img{
+    width: 600px;
+    height: 560px;
+    object-fit: cover;
+  }
+
+
+}
+ /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 1301px) and (max-width: 1500.98px) {
+  
+  .sec-apnmt {
+    margin-top: 80px;
+}
+/* .row{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+} */
+.second{
+  display: flex;
+}
+.form{
+ width: 100%;
+    margin-top: 50px;
+ 
+}
+.left-column{
+    display: flex;
+    justify-content: flex-start;
+}
+
+  .row-item1 input{
+    border: 1px solid #c4cae0;
+  
+    border-radius: 3px;
+    height: 50px;
+    width: 258px;
+  }
+  .row-item1{
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .row-item2 input{
+
+    border: 1px solid #c4cae0;
+    border-radius: 3px;
+    height: 50px;
+    width: 258px;
+
+  }
+  .row-item2{
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .row-item3 input{
+    margin-bottom: 10px;
+    border: 1px solid #c4cae0;
+    border-radius: 3px;
+    height: 50px;
+    width: 258px;
+  }
+  .row-item3{
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .row-item4 textarea{
+    border-radius: 3px;
+    border: 1px solid #c4cae0;
+  }
+  .row-item4{
+    display: flex;
+
+    flex-wrap: wrap;
+    
+  }
+  
+  .row-item5 button{
+   height: 50px;
+   width: 200px;
+   border: 1px solid #c4cae0;
+   border-radius: 3px;
+   background-color:  rgba(27,118,209,255);
+   color:white;
+   font-size: 14px;
+  }
+  .row-item5 p{
+    font-size: 14px;
+    margin-bottom: 0;
+    padding-top: 5px;
+    display: inline-block;
+  }
+  .row-item5{
+    display: flex;
+ 
+    align-items: center;
+    flex-wrap: wrap;
+       gap: 50px;
+  }
+  ::placeholder{
+    padding: 10px;
+    font-size: 14px;
+    
+  }
+  input{
+    padding: 10px;
+  }
+  textarea{
+    padding: 10px;
+    width: 100%;
+  }
+  .depart {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .depart::after {
+    content: "\f078"; 
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    right: 5%; 
+    font-size: 10px; 
+    top: 25%;
+    color: dimgray; 
+  }
+
+  .doctor{
+    position: relative;
+    display: flex;
+    align-items: center;
+   
+  
+  }
+  .doctor::after {
+    content: "\f078"; 
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    right: 5%; 
+    top: 25%;
+    font-size: 10px; 
+    color: dimgray; 
+  }
+
+.appointment-img{
+    width: 100%;
+    height: 100%; 
+  }
+  .appointment-img img{
+    width: 600px;
+    height: 560px;
+    object-fit: cover;
+  }
+
+
+}

@@ -1,0 +1,2073 @@
+.health-sec{
+    margin: 100px 0 100px 0;
+}
+.whoweare{
+  display: flex;
+justify-content: center;
+
+ align-items: center;
+ width: 100%;
+}
+.whoweare h1{
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 0;
+margin-right: 430px;
+width: 100%;
+}
+
+/* .hr-3{
+    margin-top:15px !important;
+margin-right: 530px;
+    width: 40px;
+    border: solid;
+    border-color:rgba(27,118,209,255);
+    border-width: 2px;
+   
+} */
+
+.hr-health1{
+  border: solid;
+  border-color: rgba(27,118,209,255);
+  width: 100px;
+  margin-left: 46%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.hr-health2{
+  border: solid;
+  border-color: rgba(27,118,209,255);
+  width: 80px;
+  margin-top: 10px;
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.health-p{
+  width: 100%;
+  /* margin-right: 10px; */
+    font-size: 16px;
+    color: dimgray;
+   
+}
+.health-p .p-1{
+margin-top: 22px;
+margin-bottom: 20px;
+padding: 0 !important;
+line-height: 30px;
+}
+.health-p p{
+    margin-bottom: 10px;
+    line-height: 20px;
+    
+}
+.health-pp{
+  margin-top: 10px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 30px;
+  /* margin-right: 120px; */
+  color: dimgray;
+}
+.frst{
+    font-size:16px;
+    color: dimgray;
+    position: relative;
+    padding-left: 20px; 
+    margin-bottom: 13px; 
+
+}
+.frst p{
+    margin-bottom: 20px;
+}
+.frst p::before{
+    content: "\f144";
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    position: absolute;
+    left: 0; 
+    top: 50%;
+    transform: translateY(-50%); 
+    font-size: 12px; 
+    color:rgba(27,118,209,255); 
+}
+.lineplaybtn{
+  width: 100%;
+    margin-top: 30px;
+    display: flex;
+  
+}
+.left-line{
+  margin-right: 130px;
+}
+.right-line{
+  margin-right: 30px;
+}
+.docpatient-img {
+    width: 100%;
+    height: 100%;
+  }
+
+.docpatient-img img {
+    width: 700px;
+    height: 430px;
+    object-fit: cover; 
+    display: block;
+  }
+
+.healthcontent{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+  }
+.health-right{
+  display: flex;
+  justify-content: center;
+}
+
+
+#video-popup-container {
+    display:none;
+    position: fixed;
+    z-index: 996;
+    width: 60%;
+    left: 50%;
+    margin-left: -30%;
+    top: 20%;
+    background-color: #fff;
+  }
+  
+  #video-popup-close {
+    cursor: pointer;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    z-index: 998;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #000;
+    line-height: 25px;
+    color: #fff;
+  }
+  
+  #video-popup-iframe-container {
+    position: absolute;
+    z-index: 997;
+    width: 100%;
+    padding-bottom: 56.25%;
+    border: 2px solid #000;
+    border-radius: 2px;
+    background-color: #000;
+  }
+  
+  #video-popup-iframe {
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #000;
+  }
+  
+  #video-popup-overlay {
+    display: none;
+    position: fixed;
+    z-index: 995;
+    top: 0;
+    background-color: #e7e7e7;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #video-popup-close:hover {
+    color: #DE0023;
+  }
+  .docpatient-img{
+    position: relative;
+  }
+  .img-icon{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-size: 50px;
+    color:  rgba(27,118,209,255);
+  }
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+  @media only screen and (min-width: 280px) and (max-width: 575.98px) {
+
+    .health-sec{
+      margin-top: 100px;
+  }
+  .whoweare{
+    display: flex;
+    flex-direction: column;
+   align-items: flex-end;
+   
+  }
+  .whoweare h1{
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-right: 300px;
+  width: 100%;
+  }
+  
+  /* .hr-3{
+      margin-top:15px !important;
+  margin-right: 360px;
+      width: 40px;
+      border: solid;
+      border-color:rgba(27,118,209,255);
+      border-width: 2px;
+     
+  } */
+
+  .hr-health1{
+    border: solid;
+    border-color: rgba(27,118,209,255);
+    width: 100px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .hr-health2{
+    border: solid;
+    border-color: rgba(27,118,209,255);
+    width: 80px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .health-p{
+    width: 100%;
+    /* margin-right: 10px; */
+      font-size: 16px;
+      color: dimgray;
+     
+  }
+  .health-p .p-1{
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 0 !important;
+  line-height: 30px;
+  }
+  .health-p p{
+      margin-bottom: 5px;
+      line-height: 20px;
+      
+  }
+  .health-pp{
+    margin-top: 10px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+    /* margin-right: 120px; */
+    color: dimgray;
+  }
+  .frst{
+      font-size:16px;
+      color: dimgray;
+      position: relative;
+      padding-left: 20px; 
+      margin-bottom: 13px; 
+  
+  }
+  .frst p{
+      margin-bottom: 20px;
+  }
+  .frst p::before{
+      content: "\f144";
+      font-family: "Font Awesome 5 Free"; 
+      font-weight: 900; 
+      position: absolute;
+      left: 0; 
+      top: 50%;
+      transform: translateY(-50%); 
+      font-size: 12px; 
+      color:rgba(27,118,209,255); 
+  }
+  .lineplaybtn{
+    width: 100%;
+      margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+
+  .docpatient-img {
+      width: 100%;
+      height: 100%;
+    }
+  
+  .docpatient-img img {
+      width: 400px;
+      height: 280px;
+      object-fit: cover; 
+      display: block;
+    }
+  
+  .healthcontent{
+      margin-top: 80px;
+    }
+    .docpatient-img{
+      position: relative;
+    }
+    .img-icon{
+      position: absolute;
+      top: 35%;
+      left: 40%;
+      font-size: 50px;
+      color:  rgba(27,118,209,255);
+    }
+  
+
+  
+  #video-popup-container {
+      display:none;
+      position: fixed;
+      z-index: 996;
+      width: 60%;
+      left: 50%;
+      margin-left: -30%;
+      top: 20%;
+      background-color: #fff;
+    }
+    
+    #video-popup-close {
+      cursor: pointer;
+      position: absolute;
+      right: -10px;
+      top: -10px;
+      z-index: 998;
+      width: 25px;
+      height: 25px;
+      border-radius: 25px;
+      text-align: center;
+      font-size: 12px;
+      background-color: #000;
+      line-height: 25px;
+      color: #fff;
+    }
+    
+    #video-popup-iframe-container {
+      position: absolute;
+      z-index: 997;
+      width: 100%;
+      padding-bottom: 56.25%;
+      border: 2px solid #000;
+      border-radius: 2px;
+      background-color: #000;
+    }
+    
+    #video-popup-iframe {
+      z-index: 999;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background-color: #000;
+    }
+    
+    #video-popup-overlay {
+      display: none;
+      position: fixed;
+      z-index: 995;
+      top: 0;
+      background-color: #e7e7e7;
+      opacity: 0.8;
+      width: 100%;
+      height: 100%;
+    }
+    
+    #video-popup-close:hover {
+      color: #DE0023;
+    }
+   
+
+
+
+  }
+ /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+
+  .health-sec{
+    margin-top: 100px;
+}
+.whoweare{
+  display: flex;
+  flex-direction: column;
+ align-items: flex-end;
+ 
+}
+.whoweare h1{
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 0;
+margin-right: 400px;
+width: 100%;
+}
+
+/* .hr-3{
+    margin-top:15px !important;
+margin-right: 475px;
+    width: 40px;
+    border: solid;
+    border-color:rgba(27,118,209,255);
+    border-width: 2px;
+   
+} */
+.hr-health1{
+  border: solid;
+  border-color: rgba(27,118,209,255);
+  width: 100px;
+  margin-left: 210px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.hr-health2{
+  border: solid;
+  border-color: rgba(27,118,209,255);
+  width: 80px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.health-p{
+  width: 100%;
+  /* margin-right: 10px; */
+    font-size: 14px;
+    color: dimgray;
+   
+}
+.health-p .p-1{
+margin-top: 15px;
+margin-bottom: 20px;
+padding: 0 !important;
+line-height: 30px;
+}
+.health-p p{
+    margin-bottom: 5px;
+    line-height: 20px;
+    
+}
+.health-pp{
+  margin-top: 10px;
+  width: 100%;
+  font-size: 14px;
+  line-height: 30px;
+  /* margin-right: 120px; */
+  color: dimgray;
+}
+.frst{
+    font-size:12px;
+    color: dimgray;
+    position: relative;
+    padding-left: 20px; 
+    margin-bottom: 13px; 
+
+}
+.frst p{
+    margin-bottom: 20px;
+}
+.frst p::before{
+    content: "\f144";
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    position: absolute;
+    left: 0; 
+    top: 50%;
+    transform: translateY(-50%); 
+    font-size: 12px; 
+    color:rgba(27,118,209,255); 
+}
+.lineplaybtn{
+  width: 100%;
+    margin-top: 30px;
+  display: flex;
+ 
+  
+}
+
+
+.docpatient-img {
+    width: 100%;
+    height: 100%;
+  }
+
+.docpatient-img img {
+    width: 510px;
+    height: 280px;
+    object-fit: cover; 
+    display: block;
+  }
+
+.healthcontent{
+    margin-top: 80px;
+  }
+  .docpatient-img{
+    position: relative;
+  }
+  .img-icon{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    font-size: 50px;
+    color:  rgba(27,118,209,255);
+  }
+
+
+
+#video-popup-container {
+    display:none;
+    position: fixed;
+    z-index: 996;
+    width: 60%;
+    left: 50%;
+    margin-left: -30%;
+    top: 20%;
+    background-color: #fff;
+  }
+  
+  #video-popup-close {
+    cursor: pointer;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    z-index: 998;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #000;
+    line-height: 25px;
+    color: #fff;
+  }
+  
+  #video-popup-iframe-container {
+    position: absolute;
+    z-index: 997;
+    width: 100%;
+    padding-bottom: 56.25%;
+    border: 2px solid #000;
+    border-radius: 2px;
+    background-color: #000;
+  }
+  
+  #video-popup-iframe {
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #000;
+  }
+  
+  #video-popup-overlay {
+    display: none;
+    position: fixed;
+    z-index: 995;
+    top: 0;
+    background-color: #e7e7e7;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #video-popup-close:hover {
+    color: #DE0023;
+  }
+ 
+
+}
+ /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .health-sec{
+    margin-top: 100px;
+}
+.whoweare{
+  display: flex;
+  flex-direction: column;
+ align-items: flex-end;
+ 
+}
+.whoweare h1{
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 0;
+/* margin-right: 580px; */
+display: flex;
+justify-content: center;
+width: 100%;
+}
+/* .separateLine{
+  width: 50px;
+  display: flex;
+ 
+  align-items: center;
+  
+
+} */
+/* .hr-3{
+    margin-top:15px !important;
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 40px;
+    border: solid;
+    border-color:rgba(27,118,209,255);
+    border-width: 2px;
+   
+} */
+
+
+.hr-health1{
+  border: solid;
+  border-color: rgba(27,118,209,255);
+  width: 100px;
+  margin-left: 290px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.hr-health2{
+  border: solid;
+  border-color: rgba(27,118,209,255);
+  width: 80px;
+  margin-top: 10px;
+  margin-left: 310px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.health-p{
+  width: 100%;
+  /* margin-right: 10px; */
+    font-size: 16px;
+    color: dimgray;
+   
+}
+.health-p .p-1{
+margin-top: 22px;
+margin-bottom: 20px;
+padding: 0 !important;
+line-height: 30px;
+}
+.health-p p{
+    margin-bottom: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+.health-pp{
+  margin-top: 10px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 30px;
+  /* margin-right: 120px; */
+  color: dimgray;
+  text-align: center;
+}
+.frst{
+    font-size:16px;
+    color: dimgray;
+    position: relative;
+    padding-left: 20px; 
+    margin-bottom: 13px; 
+
+}
+.frst p{
+    margin-bottom: 20px;
+}
+.frst p::before{
+    content: "\f144";
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    position: absolute;
+    left: 0; 
+    top: 50%;
+    transform: translateY(-50%); 
+    font-size: 12px; 
+    color:rgba(27,118,209,255); 
+}
+.lineplaybtn{
+  width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  
+}
+.left-line{
+  margin-right: 130px;
+}
+.right-line{
+  margin-right: 30px;
+}
+.docpatient-img {
+    width: 100%;
+    height: 100%;
+  }
+
+.docpatient-img img {
+    width: 700px;
+    height: 430px;
+    object-fit: cover; 
+    display: block;
+  }
+
+.healthcontent{
+    margin-top: 80px;
+  }
+
+
+
+#video-popup-container {
+    display:none;
+    position: fixed;
+    z-index: 996;
+    width: 60%;
+    left: 50%;
+    margin-left: -30%;
+    top: 20%;
+    background-color: #fff;
+  }
+  
+  #video-popup-close {
+    cursor: pointer;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    z-index: 998;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #000;
+    line-height: 25px;
+    color: #fff;
+  }
+  
+  #video-popup-iframe-container {
+    position: absolute;
+    z-index: 997;
+    width: 100%;
+    padding-bottom: 56.25%;
+    border: 2px solid #000;
+    border-radius: 2px;
+    background-color: #000;
+  }
+  
+  #video-popup-iframe {
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #000;
+  }
+  
+  #video-popup-overlay {
+    display: none;
+    position: fixed;
+    z-index: 995;
+    top: 0;
+    background-color: #e7e7e7;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #video-popup-close:hover {
+    color: #DE0023;
+  }
+  .docpatient-img{
+    position: relative;
+  }
+  .img-icon{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 50px;
+    color:  rgba(27,118,209,255);
+  }
+
+
+}
+ /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 992px) and (max-width: 1200.98px) {
+  .health-sec{
+    margin-top: 100px;
+}
+.whoweare{
+  display: flex;
+  flex-direction: row;
+ align-items: center;
+ gap: 10px;
+}
+.whoweare h1{
+font-size: 22px;
+font-weight: bold;
+margin-bottom: 0;
+margin-right: 430px;
+width: 100%;
+}
+
+/* .hr-2{
+    margin-top:15px !important;
+margin-right: 530px;
+    width: 40px;
+    border: solid;
+    border-color:rgba(27,118,209,255);
+    border-width: 2px;
+    */
+/* } */
+.hr-health1{
+  border: solid;
+  border-color: rgba(27,118,209,255);
+  width: 100px;
+  margin-left: 420px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.hr-health2{
+  border: solid;
+  border-color: rgba(27,118,209,255);
+  width: 80px;
+  margin-top: 10px;
+  /* margin-left: 310px; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.health-p{
+  width: 100%;
+  /* margin-right: 10px; */
+    font-size: 14px;
+    color: dimgray;
+   
+}
+.health-p .p-1{
+margin-top: 22px;
+margin-bottom: 20px;
+padding: 0 !important;
+line-height: 30px;
+}
+.health-p p{
+    margin-bottom: 10px;
+    line-height: 20px;
+    
+}
+.health-pp{
+  margin-top: 10px;
+  width: 100%;
+  font-size: 14px;
+  line-height: 30px;
+  /* margin-right: 120px; */
+  color: dimgray;
+}
+.frst{
+    font-size:16px;
+    color: dimgray;
+    position: relative;
+    padding-left: 20px; 
+    margin-bottom: 13px; 
+
+}
+.frst p{
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.frst p::before{
+    content: "\f144";
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    position: absolute;
+    left: 0; 
+    top: 50%;
+    transform: translateY(-50%); 
+    font-size: 12px; 
+    color:rgba(27,118,209,255); 
+}
+.lineplaybtn{
+  width: 100%;
+    margin-top: 30px;
+    display: flex;
+    margin-right: 90px;
+    font-size: 8px;
+  
+}
+.left-line{
+  margin-right: 90px;
+  font-size: 8px;
+}
+.right-line{
+  margin-right: 30px;
+}
+.docpatient-img {
+    width: 100%;
+    height: 100%;
+  }
+
+.docpatient-img img {
+    width: 400px;
+    height: 390px;
+    object-fit: cover; 
+   
+  }
+
+.healthcontent{
+    margin-top: 80px;
+  }
+
+
+
+#video-popup-container {
+    display:none;
+    position: fixed;
+    z-index: 996;
+    width: 60%;
+    left: 50%;
+    margin-left: -30%;
+    top: 20%;
+    background-color: #fff;
+  }
+  
+  #video-popup-close {
+    cursor: pointer;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    z-index: 998;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #000;
+    line-height: 25px;
+    color: #fff;
+  }
+  
+  #video-popup-iframe-container {
+    position: absolute;
+    z-index: 997;
+    width: 100%;
+    padding-bottom: 56.25%;
+    border: 2px solid #000;
+    border-radius: 2px;
+    background-color: #000;
+  }
+  
+  #video-popup-iframe {
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #000;
+  }
+  
+  #video-popup-overlay {
+    display: none;
+    position: fixed;
+    z-index: 995;
+    top: 0;
+    background-color: #e7e7e7;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #video-popup-close:hover {
+    color: #DE0023;
+  }
+  .docpatient-img{
+    position: relative;
+  }
+  .img-icon{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 50px;
+    color:  rgba(27,118,209,255);
+  }
+
+
+}
+ /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 1201px) and (max-width: 1300.98px) {
+  .health-sec{
+    margin-top: 100px;
+}
+.whoweare{
+  display: flex;
+  flex-direction: row;
+ align-items: center;
+ gap: 20px;
+ 
+}
+.whoweare h1{
+font-size: 22px;
+font-weight: bold;
+margin-bottom: 0;
+/* margin-right: 300px; */
+width: 100%;
+text-align: center;
+}
+/* .separateLine{
+  width: 50px;
+} */
+/* .hr-3{
+    margin-top:15px !important;
+margin-right: 200px;
+    width: 40px;
+    border: solid;
+    border-color:rgba(27,118,209,255);
+    border-width: 2px;
+    
+   
+} */
+
+.hr-health1{
+  border: solid;
+  border-color: rgba(27,118,209,255);
+  width: 100px;
+  margin-left: 520px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.hr-health2{
+  border: solid;
+  border-color: rgba(27,118,209,255);
+  width: 80px;
+  margin-top: 10px;
+  margin-left: 260px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.health-p{
+  width: 100%;
+  /* margin-right: 10px; */
+    font-size: 14px;
+    color: dimgray;
+   text-align: center;
+}
+.health-p .p-1{
+margin-top: 22px;
+margin-bottom: 20px;
+padding: 0 !important;
+line-height: 30px;
+
+}
+.health-p p{
+    margin-bottom: 10px;
+    line-height: 20px;
+  
+}
+.health-pp{
+  margin-top: 10px;
+  width: 100%;
+  font-size: 14px;
+  line-height: 30px;
+  /* margin-right: 120px; */
+  color: dimgray;
+  text-align: center;
+}
+.frst{
+    font-size:16px;
+    color: dimgray;
+    position: relative;
+    padding-left: 20px; 
+    margin-bottom: 13px; 
+
+}
+.frst p{
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.frst p::before{
+    content: "\f144";
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    position: absolute;
+    left: 0; 
+    top: 50%;
+    transform: translateY(-50%); 
+    font-size: 12px; 
+    color:rgba(27,118,209,255); 
+}
+.lineplaybtn{
+  width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    /* margin-right: 90px; */
+    font-size: 8px;
+  
+}
+.left-line{
+  margin-right: 90px;
+  font-size: 8px;
+}
+.right-line{
+  margin-right: 30px;
+}
+.docpatient-img {
+    width: 100%;
+    height: 100%;
+  }
+
+.docpatient-img img {
+    width: 500px;
+    height: 390px;
+    object-fit: cover; 
+   
+  }
+
+.healthcontent{
+    margin-top: 80px;
+  }
+
+
+
+#video-popup-container {
+    display:none;
+    position: fixed;
+    z-index: 996;
+    width: 60%;
+    left: 50%;
+    margin-left: -30%;
+    top: 20%;
+    background-color: #fff;
+  }
+  
+  #video-popup-close {
+    cursor: pointer;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    z-index: 998;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #000;
+    line-height: 25px;
+    color: #fff;
+  }
+  
+  #video-popup-iframe-container {
+    position: absolute;
+    z-index: 997;
+    width: 100%;
+    padding-bottom: 56.25%;
+    border: 2px solid #000;
+    border-radius: 2px;
+    background-color: #000;
+  }
+  
+  #video-popup-iframe {
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #000;
+  }
+  
+  #video-popup-overlay {
+    display: none;
+    position: fixed;
+    z-index: 995;
+    top: 0;
+    background-color: #e7e7e7;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #video-popup-close:hover {
+    color: #DE0023;
+  }
+  .docpatient-img{
+    position: relative;
+  }
+  .img-icon{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 50px;
+    color:  rgba(27,118,209,255);
+  }
+
+}
+ 
+@media only screen and (min-width: 1301px) and (max-width: 1500.98px) {
+  .health-sec{
+    margin-top: 100px;
+}
+.whoweare{
+  display: flex;
+  flex-direction: row;
+ align-items: center;
+ gap: 20px;
+ 
+}
+.whoweare h1{
+font-size: 22px;
+font-weight: bold;
+margin-bottom: 0;
+/* margin-right: 300px; */
+width: 100%;
+text-align: center;
+}
+/* .separateLine{
+  width: 50px;
+} */
+/* .hr-3{
+    margin-top:15px !important;
+margin-right: 200px;
+    width: 40px;
+    border: solid;
+    border-color:rgba(27,118,209,255);
+    border-width: 2px;
+    
+   
+} */
+
+.hr-health1{
+  border: solid;
+  border-color: rgba(27,118,209,255);
+  width: 100px;
+  margin-left: 520px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.hr-health2{
+  border: solid;
+  border-color: rgba(27,118,209,255);
+  width: 80px;
+  margin-top: 10px;
+  margin-left: 260px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.health-p{
+  width: 100%;
+  /* margin-right: 10px; */
+    font-size: 14px;
+    color: dimgray;
+   text-align: center;
+}
+.health-p .p-1{
+margin-top: 22px;
+margin-bottom: 20px;
+padding: 0 !important;
+line-height: 30px;
+
+}
+.health-p p{
+    margin-bottom: 10px;
+    line-height: 20px;
+  
+}
+.health-pp{
+  margin-top: 10px;
+  width: 100%;
+  font-size: 14px;
+  line-height: 30px;
+  /* margin-right: 120px; */
+  color: dimgray;
+  text-align: center;
+}
+.frst{
+    font-size:16px;
+    color: dimgray;
+    position: relative;
+    padding-left: 20px; 
+    margin-bottom: 13px; 
+
+}
+.frst p{
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.frst p::before{
+    content: "\f144";
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    position: absolute;
+    left: 0; 
+    top: 50%;
+    transform: translateY(-50%); 
+    font-size: 12px; 
+    color:rgba(27,118,209,255); 
+}
+.lineplaybtn{
+  width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    /* margin-right: 90px; */
+    font-size: 8px;
+  
+}
+.left-line{
+  margin-right: 90px;
+  font-size: 8px;
+}
+.right-line{
+  margin-right: 30px;
+}
+.docpatient-img {
+    width: 100%;
+    height: 100%;
+  }
+
+.docpatient-img img {
+    width: 500px;
+    height: 390px;
+    object-fit: cover; 
+   
+  }
+
+.healthcontent{
+    margin-top: 80px;
+  }
+
+
+
+#video-popup-container {
+    display:none;
+    position: fixed;
+    z-index: 996;
+    width: 60%;
+    left: 50%;
+    margin-left: -30%;
+    top: 20%;
+    background-color: #fff;
+  }
+  
+  #video-popup-close {
+    cursor: pointer;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    z-index: 998;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #000;
+    line-height: 25px;
+    color: #fff;
+  }
+  
+  #video-popup-iframe-container {
+    position: absolute;
+    z-index: 997;
+    width: 100%;
+    padding-bottom: 56.25%;
+    border: 2px solid #000;
+    border-radius: 2px;
+    background-color: #000;
+  }
+  
+  #video-popup-iframe {
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #000;
+  }
+  
+  #video-popup-overlay {
+    display: none;
+    position: fixed;
+    z-index: 995;
+    top: 0;
+    background-color: #e7e7e7;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #video-popup-close:hover {
+    color: #DE0023;
+  }
+  .docpatient-img{
+    position: relative;
+  }
+  .img-icon{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 50px;
+    color:  rgba(27,118,209,255);
+  }
+
+
+
+
+}
+ 
+@media only screen and (min-width:1501px) and (max-width:1700.98px){
+  .health-sec{
+    margin-top: 100px;
+}
+.whoweare{
+  display: flex;
+  flex-direction: row;
+ align-items: center;
+ gap: 20px;
+ 
+}
+.whoweare h1{
+font-size: 22px;
+font-weight: bold;
+margin-bottom: 0;
+/* margin-right: 300px; */
+width: 100%;
+text-align: center;
+}
+/* .separateLine{
+  width: 50px;
+} */
+/* .hr-3{
+    margin-top:15px !important;
+margin-right: 200px;
+    width: 40px;
+    border: solid;
+    border-color:rgba(27,118,209,255);
+    border-width: 2px;
+    
+   
+} */
+
+.hr-health1{
+  border: solid;
+  border-color: rgba(27,118,209,255);
+  width: 100px;
+  margin-left: 605px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.hr-health2{
+  border: solid;
+  border-color: rgba(27,118,209,255);
+  width: 80px;
+  margin-top: 10px;
+  margin-left: 310px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.health-p{
+  width: 100%;
+  /* margin-right: 10px; */
+    font-size: 14px;
+    color: dimgray;
+   text-align: center;
+}
+.health-p .p-1{
+margin-top: 22px;
+margin-bottom: 20px;
+padding: 0 !important;
+line-height: 30px;
+
+}
+.health-p p{
+    margin-bottom: 10px;
+    line-height: 20px;
+  
+}
+.health-pp{
+  margin-top: 10px;
+  width: 100%;
+  font-size: 14px;
+  line-height: 30px;
+  /* margin-right: 120px; */
+  color: dimgray;
+  text-align: center;
+}
+.frst{
+    font-size:16px;
+    color: dimgray;
+    position: relative;
+    padding-left: 20px; 
+    margin-bottom: 13px; 
+
+}
+.frst p{
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.frst p::before{
+    content: "\f144";
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    position: absolute;
+    left: 0; 
+    top: 50%;
+    transform: translateY(-50%); 
+    font-size: 12px; 
+    color:rgba(27,118,209,255); 
+}
+.lineplaybtn{
+  width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    /* margin-right: 90px; */
+    font-size: 8px;
+  
+}
+.left-line{
+  margin-right: 90px;
+  font-size: 8px;
+}
+.right-line{
+  margin-right: 30px;
+}
+.docpatient-img {
+    width: 100%;
+    height: 100%;
+  }
+
+.docpatient-img img {
+    width: 570px;
+    height: 390px;
+    object-fit: cover; 
+   
+  }
+
+.healthcontent{
+    margin-top: 80px;
+  }
+
+
+
+#video-popup-container {
+    display:none;
+    position: fixed;
+    z-index: 996;
+    width: 60%;
+    left: 50%;
+    margin-left: -30%;
+    top: 20%;
+    background-color: #fff;
+  }
+  
+  #video-popup-close {
+    cursor: pointer;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    z-index: 998;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #000;
+    line-height: 25px;
+    color: #fff;
+  }
+  
+  #video-popup-iframe-container {
+    position: absolute;
+    z-index: 997;
+    width: 100%;
+    padding-bottom: 56.25%;
+    border: 2px solid #000;
+    border-radius: 2px;
+    background-color: #000;
+  }
+  
+  #video-popup-iframe {
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #000;
+  }
+  
+  #video-popup-overlay {
+    display: none;
+    position: fixed;
+    z-index: 995;
+    top: 0;
+    background-color: #e7e7e7;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #video-popup-close:hover {
+    color: #DE0023;
+  }
+  .docpatient-img{
+    position: relative;
+  }
+  .img-icon{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 50px;
+    color:  rgba(27,118,209,255);
+  }
+
+
+}
+@media only screen and (min-width:1701px) and (max-width:1900.98px){
+  .health-sec{
+    margin-top: 100px;
+}
+.whoweare{
+  display: flex;
+  flex-direction: row;
+ align-items: center;
+ gap: 20px;
+ 
+}
+.whoweare h1{
+font-size: 22px;
+font-weight: bold;
+margin-bottom: 0;
+/* margin-right: 300px; */
+width: 100%;
+text-align: center;
+}
+/* .separateLine{
+  width: 50px;
+} */
+/* .hr-3{
+    margin-top:15px !important;
+margin-right: 200px;
+    width: 40px;
+    border: solid;
+    border-color:rgba(27,118,209,255);
+    border-width: 2px;
+    
+   
+} */
+
+.hr-health1{
+  border: solid;
+  border-color: rgba(27,118,209,255);
+  width: 100px;
+  margin-left: 605px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.hr-health2{
+  border: solid;
+  border-color: rgba(27,118,209,255);
+  width: 80px;
+  margin-top: 10px;
+  margin-left: 310px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.health-p{
+  width: 100%;
+  /* margin-right: 10px; */
+    font-size: 14px;
+    color: dimgray;
+   text-align: center;
+}
+.health-p .p-1{
+margin-top: 22px;
+margin-bottom: 20px;
+padding: 0 !important;
+line-height: 30px;
+
+}
+.health-p p{
+    margin-bottom: 10px;
+    line-height: 20px;
+  
+}
+.health-pp{
+  margin-top: 10px;
+  width: 100%;
+  font-size: 14px;
+  line-height: 30px;
+  /* margin-right: 120px; */
+  color: dimgray;
+  text-align: center;
+}
+.frst{
+    font-size:16px;
+    color: dimgray;
+    position: relative;
+    padding-left: 20px; 
+    margin-bottom: 13px; 
+
+}
+.frst p{
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.frst p::before{
+    content: "\f144";
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    position: absolute;
+    left: 0; 
+    top: 50%;
+    transform: translateY(-50%); 
+    font-size: 12px; 
+    color:rgba(27,118,209,255); 
+}
+.lineplaybtn{
+  width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    /* margin-right: 90px; */
+    font-size: 8px;
+  
+}
+.left-line{
+  margin-right: 90px;
+  font-size: 8px;
+}
+.right-line{
+  margin-right: 30px;
+}
+.docpatient-img {
+    width: 100%;
+    height: 100%;
+  }
+
+.docpatient-img img {
+    width: 570px;
+    height: 390px;
+    object-fit: cover; 
+   
+  }
+
+.healthcontent{
+    margin-top: 80px;
+  }
+
+
+
+#video-popup-container {
+    display:none;
+    position: fixed;
+    z-index: 996;
+    width: 60%;
+    left: 50%;
+    margin-left: -30%;
+    top: 20%;
+    background-color: #fff;
+  }
+  
+  #video-popup-close {
+    cursor: pointer;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    z-index: 998;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #000;
+    line-height: 25px;
+    color: #fff;
+  }
+  
+  #video-popup-iframe-container {
+    position: absolute;
+    z-index: 997;
+    width: 100%;
+    padding-bottom: 56.25%;
+    border: 2px solid #000;
+    border-radius: 2px;
+    background-color: #000;
+  }
+  
+  #video-popup-iframe {
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #000;
+  }
+  
+  #video-popup-overlay {
+    display: none;
+    position: fixed;
+    z-index: 995;
+    top: 0;
+    background-color: #e7e7e7;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #video-popup-close:hover {
+    color: #DE0023;
+  }
+  .docpatient-img{
+    position: relative;
+  }
+  .img-icon{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 50px;
+    color:  rgba(27,118,209,255);
+  }
+
+}
+@media only screen and (min-width:1901px) and (max-width:2100.98px){
+  .health-sec{
+    margin-top: 100px;
+}
+.whoweare{
+  display: flex;
+  flex-direction: row;
+ align-items: center;
+ gap: 20px;
+ 
+}
+.whoweare h1{
+font-size: 22px;
+font-weight: bold;
+margin-bottom: 0;
+/* margin-right: 300px; */
+width: 100%;
+text-align: center;
+}
+/* .separateLine{
+  width: 50px;
+} */
+/* .hr-3{
+    margin-top:15px !important;
+margin-right: 200px;
+    width: 40px;
+    border: solid;
+    border-color:rgba(27,118,209,255);
+    border-width: 2px;
+    
+   
+} */
+
+.hr-health1{
+  border: solid;
+  border-color: rgba(27,118,209,255);
+  width: 100px;
+  margin-left: 605px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.hr-health2{
+  border: solid;
+  border-color: rgba(27,118,209,255);
+  width: 80px;
+  margin-top: 10px;
+  margin-left: 310px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.health-p{
+  width: 100%;
+  /* margin-right: 10px; */
+    font-size: 14px;
+    color: dimgray;
+   text-align: center;
+}
+.health-p .p-1{
+margin-top: 22px;
+margin-bottom: 20px;
+padding: 0 !important;
+line-height: 30px;
+
+}
+.health-p p{
+    margin-bottom: 10px;
+    line-height: 20px;
+  
+}
+.health-pp{
+  margin-top: 10px;
+  width: 100%;
+  font-size: 14px;
+  line-height: 30px;
+  /* margin-right: 120px; */
+  color: dimgray;
+  text-align: center;
+}
+.frst{
+    font-size:16px;
+    color: dimgray;
+    position: relative;
+    padding-left: 20px; 
+    margin-bottom: 13px; 
+
+}
+.frst p{
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.frst p::before{
+    content: "\f144";
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    position: absolute;
+    left: 0; 
+    top: 50%;
+    transform: translateY(-50%); 
+    font-size: 12px; 
+    color:rgba(27,118,209,255); 
+}
+.lineplaybtn{
+  width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    /* margin-right: 90px; */
+    font-size: 8px;
+  
+}
+.left-line{
+  margin-right: 90px;
+  font-size: 8px;
+}
+.right-line{
+  margin-right: 30px;
+}
+.docpatient-img {
+    width: 100%;
+    height: 100%;
+  }
+
+.docpatient-img img {
+    width: 570px;
+    height: 390px;
+    object-fit: cover; 
+   
+  }
+
+.healthcontent{
+    margin-top: 80px;
+  }
+
+
+
+#video-popup-container {
+    display:none;
+    position: fixed;
+    z-index: 996;
+    width: 60%;
+    left: 50%;
+    margin-left: -30%;
+    top: 20%;
+    background-color: #fff;
+  }
+  
+  #video-popup-close {
+    cursor: pointer;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    z-index: 998;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #000;
+    line-height: 25px;
+    color: #fff;
+  }
+  
+  #video-popup-iframe-container {
+    position: absolute;
+    z-index: 997;
+    width: 100%;
+    padding-bottom: 56.25%;
+    border: 2px solid #000;
+    border-radius: 2px;
+    background-color: #000;
+  }
+  
+  #video-popup-iframe {
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #000;
+  }
+  
+  #video-popup-overlay {
+    display: none;
+    position: fixed;
+    z-index: 995;
+    top: 0;
+    background-color: #e7e7e7;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #video-popup-close:hover {
+    color: #DE0023;
+  }
+  .docpatient-img{
+    position: relative;
+  }
+  .img-icon{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 50px;
+    color:  rgba(27,118,209,255);
+  }
+}

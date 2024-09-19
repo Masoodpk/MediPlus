@@ -1,0 +1,161 @@
+.sec-Rules{
+margin-top: 70px;
+}
+.cards-rules{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.card1-rules{
+    height:250px;
+    width: 320px;
+    
+}
+.card1-rules img{
+    object-fit: cover;
+    height:250px;
+    width: 320px;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 280px) and (max-width: 575.98px) {
+    .sec-Rules{
+        margin-top: 70px;
+        }
+        .cards-rules{
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+        .card1-rules{
+            height:250px;
+            width: 320px;
+            
+        }
+        .card1-rules img{
+            object-fit: cover;
+            height:250px;
+            width: 320px;
+        }
+}
+ 
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .sec-Rules{
+        margin-top: 70px;
+        }
+        .cards-rules{
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+        .card1-rules{
+            height:250px;
+            width: 320px;
+            
+        }
+        .card1-rules img{
+            object-fit: cover;
+            height:250px;
+            width: 320px;
+        }
+
+}
+ 
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .sec-Rules{
+        margin-top: 70px;
+        }
+        .cards-rules{
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+        .card1-rules{
+            height:250px;
+            width: 320px;
+            
+        }
+        .card1-rules img{
+            object-fit: cover;
+            height:250px;
+            width: 320px;
+        }
+}
+ 
+@media only screen and (min-width: 992px) and (max-width: 1200.98px) {
+    .sec-Rules{
+        margin-top: 70px;
+        }
+        .cards-rules{
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+        .card1-rules{
+            height:250px;
+            width: 320px;
+            
+        }
+        .card1-rules img{
+            object-fit: cover;
+            height:250px;
+            width: 320px;
+        }
+}
+ 
+@media only screen and (min-width: 1201px) and (max-width: 1300.98px) {
+    .sec-Rules{
+        margin-top: 70px;
+        }
+        .cards-rules{
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+        .card1-rules{
+            height:250px;
+            width: 320px;
+            
+        }
+        .card1-rules img{
+            object-fit: cover;
+            height:250px;
+            width: 320px;
+        }
+}
+ 
+@media only screen and (min-width: 1301px) and (max-width: 1500.98px) {
+    .sec-Rules{
+        margin-top: 70px;
+        }
+        .cards-rules{
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+        .card1-rules{
+            height:250px;
+            width: 320px;
+            
+        }
+        .card1-rules img{
+            object-fit: cover;
+            height:250px;
+            width: 320px;
+        }
+}

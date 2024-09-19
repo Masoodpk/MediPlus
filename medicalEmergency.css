@@ -1,0 +1,691 @@
+
+ .sec-medical {
+   
+    height: 400px;
+    background-image: url('assets/stethescope.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sec-medical::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 118, 209, 0.7);
+    z-index: 1;
+}
+
+.medicalflud {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative; 
+
+    align-items: center;
+    justify-content: center;
+    z-index: 2; 
+}
+
+.blueprint2-texts {
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.main-smallTitles p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.main-titles h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.medical-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.medical-btn .btn1 {
+    color: rgba(27, 118, 209, 1);
+    width: 130px;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.medical-btn .btn2 {
+    color: white;
+    width: 130px;
+    height: 45px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 280px) and (max-width: 575.98px) {
+    
+ .sec-medical {
+   
+    height: 400px;
+    background-image: url('assets/stethescope.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sec-medical::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 118, 209, 0.7);
+    z-index: 1;
+}
+
+.medicalflud {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative; 
+
+    align-items: center;
+    justify-content: center;
+    z-index: 2; 
+}
+
+.blueprint2-texts {
+  
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.main-smallTitles p {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.main-titles h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.medical-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.medical-btn .btn1 {
+    color: rgba(27, 118, 209, 1);
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.medical-btn .btn2 {
+    color: white;
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+}
+ /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .sec-medical {
+   
+        height: 400px;
+        background-image: url('assets/stethescope.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .sec-medical::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(27, 118, 209, 0.7);
+        z-index: 1;
+    }
+    
+    .medicalflud {
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        position: relative; 
+    
+        align-items: center;
+        justify-content: center;
+        z-index: 2; 
+    }
+    
+    .blueprint2-texts {
+      
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    
+    .main-smallTitles p {
+        color: white;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .main-titles h1 {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 0;
+        margin-top: 90px;
+        text-align: center;
+    }
+    
+    .medical-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin-top: 20px;
+    }
+    
+    .medical-btn .btn1 {
+        color: rgba(27, 118, 209, 1);
+        width: 120px;
+        height: 40px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    
+    .medical-btn .btn2 {
+        color: white;
+        width: 120px;
+        height: 40px;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid;
+        border-width: 1px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    
+}
+ /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+
+    
+ .sec-medical {
+   
+    height: 400px;
+    background-image: url('assets/stethescope.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sec-medical::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 118, 209, 0.7);
+    z-index: 1;
+}
+
+.medicalflud {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative; 
+
+    align-items: center;
+    justify-content: center;
+    z-index: 2; 
+}
+
+.blueprint2-texts {
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.main-smallTitles p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.main-titles h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.medical-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.medical-btn .btn1 {
+    color: rgba(27, 118, 209, 1);
+    width: 130px;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.medical-btn .btn2 {
+    color: white;
+    width: 130px;
+    height: 45px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+}
+ /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 992px) and (max-width: 1200.98px) {
+    
+ .sec-medical {
+   
+    height: 400px;
+    background-image: url('assets/stethescope.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sec-medical::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 118, 209, 0.7);
+    z-index: 1;
+}
+
+.medicalflud {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative; 
+
+    align-items: center;
+    justify-content: center;
+    z-index: 2; 
+}
+
+.blueprint2-texts {
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.main-smallTitles p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.main-titles h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.medical-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.medical-btn .btn1 {
+    color: rgba(27, 118, 209, 1);
+    width: 130px;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.medical-btn .btn2 {
+    color: white;
+    width: 130px;
+    height: 45px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+}
+ /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 1201px) and (max-width: 1300.98px) {
+
+    
+ .sec-medical {
+   
+    height: 400px;
+    background-image: url('assets/stethescope.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sec-medical::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 118, 209, 0.7);
+    z-index: 1;
+}
+
+.medicalflud {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative; 
+
+    align-items: center;
+    justify-content: center;
+    z-index: 2; 
+}
+
+.blueprint2-texts {
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.main-smallTitles p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.main-titles h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.medical-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.medical-btn .btn1 {
+    color: rgba(27, 118, 209, 1);
+    width: 130px;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.medical-btn .btn2 {
+    color: white;
+    width: 130px;
+    height: 45px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+}
+ /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 1301px) and (max-width: 1500.98px) {
+    
+ .sec-medical {
+   
+    height: 400px;
+    background-image: url('assets/stethescope.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sec-medical::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 118, 209, 0.7);
+    z-index: 1;
+}
+
+.medicalflud {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative; 
+
+    align-items: center;
+    justify-content: center;
+    z-index: 2; 
+}
+
+.blueprint2-texts {
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.main-smallTitles p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.main-titles h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.medical-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.medical-btn .btn1 {
+    color: rgba(27, 118, 209, 1);
+    width: 130px;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.medical-btn .btn2 {
+    color: white;
+    width: 130px;
+    height: 45px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+}

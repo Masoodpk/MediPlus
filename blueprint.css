@@ -1,0 +1,618 @@
+.blueflud{
+ 
+    padding: 0;
+}
+.sec-blue {
+    margin-top: 70px;
+    position: relative;
+    width: 100%;
+  padding: 130px;
+    background-image: url('assets/handshake.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+
+  }
+  .overlay-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 118, 209, 0.7); 
+    z-index: 1; 
+  }
+  .blueprint-content {
+    position: relative;
+    z-index: 2; 
+    text-align: center; 
+    color: white; 
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+  .blue1st{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .blueHome{
+    font-size: 35px;
+  }
+  .blueText{
+
+    flex-direction: column;
+  
+  }
+  .blueText h2{
+    font-size:25px ;
+    font-weight: 700;
+display: flex;
+justify-content: flex-start;
+margin-bottom: 0;
+  }
+  .blueText p{
+    font-size:14px ;
+    display: flex;
+justify-content: flex-start;
+margin-bottom: 0;
+  }
+  
+
+  .blueHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid;
+    border-width: 1px;
+  border-color: white;
+ border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    position: relative;
+}
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////.// */
+@media only screen and (min-width: 280px) and (max-width: 575.98px) {
+
+  .blueflud{
+ 
+    padding: 0;
+}
+.sec-blue {
+    margin-top: 70px;
+    position: relative;
+    width: 100%;
+  padding: 130px;
+    background-image: url('assets/handshake.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: center; 
+
+  }
+  .overlay-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 118, 209, 0.7); 
+    z-index: 1; 
+  }
+  .blueprint-content {
+    position: relative;
+    z-index: 2; 
+    text-align: center; 
+    color: white; 
+    display: flex;
+    flex-direction: column;
+
+    gap: 60px;
+
+  }
+  .blue1st{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+  .blueHome{
+    font-size: 35px;
+  }
+
+  .blueText h2{
+    font-size:25px ;
+    font-weight: 700;
+display: flex;
+text-align: center;
+margin-bottom: 0;
+
+  }
+  .blueText p{
+    font-size:14px ;
+    display: flex;
+text-align: center;
+margin-bottom: 0;
+  }
+  
+.blueText{
+  
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .blueHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid;
+    border-width: 1px;
+  border-color: white;
+ border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    position: relative;
+}
+
+
+
+
+
+
+}
+ /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+
+  .blueflud{
+ 
+    padding: 0;
+}
+.sec-blue {
+    margin-top: 70px;
+    position: relative;
+    width: 100%;
+  padding: 130px;
+    background-image: url('assets/handshake.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: center; 
+
+  }
+  .overlay-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 118, 209, 0.7); 
+    z-index: 1; 
+  }
+  .blueprint-content {
+    position: relative;
+    z-index: 2; 
+    text-align: center; 
+    color: white; 
+    display: flex;
+    flex-direction: column;
+
+    gap: 60px;
+
+  }
+  .blue1st{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+  .blueHome{
+    font-size: 35px;
+  }
+
+  .blueText h2{
+    font-size:25px ;
+    font-weight: 700;
+display: flex;
+text-align: center;
+margin-bottom: 0;
+
+  }
+  .blueText p{
+    font-size:14px ;
+    display: flex;
+text-align: center;
+margin-bottom: 0;
+  }
+  
+.blueText{
+  
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .blueHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid;
+    border-width: 1px;
+  border-color: white;
+ border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    position: relative;
+}
+
+}
+ /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+
+
+
+  .blueflud{
+ 
+    padding: 0;
+}
+.sec-blue {
+    margin-top: 70px;
+    position: relative;
+    width: 100%;
+  padding: 130px;
+    background-image: url('assets/handshake.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly; 
+
+  }
+  .overlay-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 118, 209, 0.7); 
+    z-index: 1; 
+  }
+  .blueprint-content {
+    position: relative;
+    z-index: 2; 
+    text-align: center; 
+    color: white; 
+    display: flex;
+   
+gap: 30px;
+  }
+  .blue1st{
+    display: flex;
+gap: 0;
+    align-items: center;
+ 
+  }
+  .blueHome{
+    font-size: 25px;
+  }
+  .blueText{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+  
+  }
+  .blueText h2{
+    font-size:20px ;
+    font-weight: 700;
+display: flex;
+justify-content: flex-start;
+margin-bottom: 0;
+  }
+  .blueText p{
+    font-size:14px ;
+    display: flex;
+justify-content: flex-start;
+margin-bottom: 0;
+  }
+  
+
+  .blueHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid;
+    border-width: 1px;
+  border-color: white;
+ border-radius: 100%;
+    height: 50px;
+    width: 80px;
+    position: relative;
+}
+
+
+
+}
+ /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 992px) and (max-width: 1200.98px) {
+
+
+
+  .blueflud{
+ 
+    padding: 0;
+}
+.sec-blue {
+    margin-top: 70px;
+    position: relative;
+    width: 100%;
+  padding: 130px;
+    background-image: url('assets/handshake.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly; 
+
+  }
+  .overlay-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 118, 209, 0.7); 
+    z-index: 1; 
+  }
+  .blueprint-content {
+    position: relative;
+    z-index: 2; 
+    text-align: center; 
+    color: white; 
+    display: flex;
+   
+gap: 40px;
+  }
+  .blue1st{
+    display: flex;
+gap: 10px;
+    align-items: center;
+
+  }
+  .blueHome{
+    font-size: 30px;
+  }
+  .blueText{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+  
+  }
+  .blueText h2{
+    font-size:20px ;
+    font-weight: 700;
+display: flex;
+justify-content: flex-start;
+margin-bottom: 0;
+  }
+  .blueText p{
+    font-size:14px ;
+    display: flex;
+justify-content: flex-start;
+margin-bottom: 0;
+  }
+  
+
+  .blueHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid;
+    border-width: 1px;
+  border-color: white;
+ border-radius: 100%;
+    height: 80px;
+    width: 110px;
+    position: relative;
+}
+
+}
+ /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 1201px) and (max-width: 1300.98px) {
+
+  .blueflud{
+ 
+    padding: 0;
+}
+.sec-blue {
+    margin-top: 70px;
+    position: relative;
+    width: 100%;
+  padding: 130px;
+    background-image: url('assets/handshake.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+
+  }
+  .overlay-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 118, 209, 0.7); 
+    z-index: 1; 
+  }
+  .blueprint-content {
+    position: relative;
+    z-index: 2; 
+    text-align: center; 
+    color: white; 
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+  .blue1st{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .blueHome{
+    font-size: 35px;
+  }
+  .blueText{
+
+    flex-direction: column;
+  
+  }
+  .blueText h2{
+    font-size:25px ;
+    font-weight: 700;
+display: flex;
+justify-content: flex-start;
+margin-bottom: 0;
+  }
+  .blueText p{
+    font-size:14px ;
+    display: flex;
+justify-content: flex-start;
+margin-bottom: 0;
+  }
+  
+
+  .blueHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid;
+    border-width: 1px;
+  border-color: white;
+ border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    position: relative;
+}
+
+
+}
+ 
+@media only screen and (min-width: 1301px) and (max-width: 1500.98px) {
+
+  .blueflud{
+ 
+    padding: 0;
+}
+.sec-blue {
+    margin-top: 70px;
+    position: relative;
+    width: 100%;
+  padding: 130px;
+    background-image: url('assets/handshake.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+
+  }
+  .overlay-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 118, 209, 0.7); 
+    z-index: 1; 
+  }
+  .blueprint-content {
+    position: relative;
+    z-index: 2; 
+    text-align: center; 
+    color: white; 
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+  .blue1st{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .blueHome{
+    font-size: 35px;
+  }
+  .blueText{
+
+    flex-direction: column;
+  
+  }
+  .blueText h2{
+    font-size:25px ;
+    font-weight: 700;
+display: flex;
+justify-content: flex-start;
+margin-bottom: 0;
+  }
+  .blueText p{
+    font-size:14px ;
+    display: flex;
+justify-content: flex-start;
+margin-bottom: 0;
+  }
+  
+
+  .blueHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid;
+    border-width: 1px;
+  border-color: white;
+ border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    position: relative;
+}
+
+}
+ 

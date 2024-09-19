@@ -1,0 +1,1905 @@
+.section-banner{
+    height: 600px;
+}
+.fluidd{
+    padding: 0;
+
+}
+.carousel-item img{
+height: 600px;
+object-fit: cover;
+}
+.carousel-item {
+
+    position: relative;
+}
+.content{
+width: 100%;
+    position: absolute;
+    top: 15%;
+    right:3%;
+}
+.content-h1 h1{
+font-size: 30px;
+font-weight: bold;
+margin-bottom: 1rem;
+
+}
+.content-h1 h1 span{
+color:rgba(27,118,209,255) ;
+}
+.content-p p{
+    font-size: 12px;
+  
+}
+.banner-btn{
+    display: flex;
+    justify-content: flex-start;
+  
+   gap: 10px;
+
+}
+.banner-btn .btnApmnt{
+    border: none;
+    color: white;
+    width:140px ;
+    height: 35px;
+    background-color: rgba(27,118,209,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+  font-size: small;
+}
+.banner-btn .btnAbout{
+    border: none;
+    color: white;
+    width:140px ;
+    height: 35px;
+    background-color: rgba(44,45,63,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  font-size: small;
+}
+.content h1{
+    margin-left:15%;
+
+   
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    position: absolute;
+    top: 78%;
+    
+}
+.card:nth-child(1)::after{
+content:"\f0f9";
+font-family: 'Font Awesome 5 Free'; 
+font-weight: 900;
+position: absolute;
+left: 80%; 
+top: 70%;
+font-size: 90px;
+opacity: 20%;
+}
+.card:nth-child(2)::after{
+    content:"\f46d";
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    left:85%; 
+    top: 70%;
+    font-size: 90px;
+    opacity: 20%;
+    }
+ .card:nth-child(3)::after{
+    content:"\f017";
+        font-family: 'Font Awesome 5 Free'; 
+        font-weight: 900;
+        position: absolute;
+        left: 85%; 
+        top: 70%;
+        font-size: 90px;
+        opacity: 20%;
+        }
+        
+
+.card{
+    position: relative;
+width:410px ;
+height: 280px;
+background-color: rgba(27,118,209,255);
+overflow: hidden;
+}
+.card-content{
+    /* margin-left: 20px;
+    margin-top: 10px; */
+    padding: 20px;
+}
+.cardP p{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 15px !important;
+}
+
+.cardH1 h1{
+font-size:20px;
+color: white;
+font-weight: 500;
+margin-bottom: 1rem;
+}
+
+.cardP2{
+    display:flex ;
+    font-size: 14px;
+    color: white;
+    gap: 7px;
+}
+.cardP2 i{
+    font-size: 10px;
+ margin-top: 3px;
+
+}
+.cardP-3{
+    color: white;
+    display: flex;
+    font-size: 16px;
+    gap: 75px;
+}
+
+.carousel-control-prev{
+    border: solid;
+    border-radius: 100%;
+    border-width:1px ;
+    height: 40px;
+    width: 40px;
+    top: 50%;
+    left: 5%;
+    background-color: rgba(27,118,209,255);
+   
+}
+.carousel-control-next{
+    border: solid;
+    border-radius: 100%;
+    border-width:1px ;
+    height: 40px;
+    width: 40px;
+    top: 50%;
+    right: 5%;
+    background-color: rgba(27,118,209,255);
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    height: 13px;
+    width: 13px;
+}
+
+
+
+.content-container{
+    top:35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+
+}
+.slider1{
+    background-image: url("assets/doctor.jpg");
+   background-size: cover;
+   background-position: center;
+    object-fit: cover;
+    position: relative;
+    height: 600px;
+    width: 100%;
+
+}
+.slider2{
+    background-image: url("assets/medi.jpg");
+   background-size: cover;
+   background-position: center;
+    object-fit: cover;
+    position: relative;
+    height: 600px;
+    width: 100%;
+
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 280px) and (max-width: 575.98px) {
+
+    .section-banner{
+       width: 100%;
+    }
+    .fluidd{
+        padding: 0;
+        width: 100%;
+    
+    }
+    .carousel-item img{
+    height: 600px;
+    object-fit: cover;
+    }
+    .carousel-item {
+    
+        position: relative;
+    }
+    .content{
+    width: 100%;
+        position: absolute;
+        top: 10%;
+        right:3%;
+    }
+    .content-h1 h1{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    
+    }
+    .content-h1 h1 span{
+    color:rgba(27,118,209,255) ;
+    }
+    .content-p p{
+        font-size: 10px;
+        /* margin-left:15%; */
+    }
+    .banner-btn{
+        display: flex;
+        justify-content: flex-start;
+        /* margin-left:15%; */
+       gap: 10px;
+    
+    }
+    .banner-btn .btnApmnt{
+        border: none;
+        color: white;
+        width:100px ;
+        height: 30px;
+        background-color: rgba(27,118,209,255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+      font-size: 10px;
+    }
+    .banner-btn .btnAbout{
+        border: none;
+        color: white;
+        width:100px ;
+        height: 30px;
+        background-color: rgba(44,45,63,255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+      font-size: 10px;
+    }
+    .content h1{
+        margin-left:15%;
+    
+       
+    }
+    .cards{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        position: absolute;
+        top: 78%;
+        
+    }
+    .card:nth-child(1)::after{
+    content:"\f0f9";
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    left: 80%; 
+    top: 70%;
+    font-size: 90px;
+    opacity: 20%;
+    }
+    .card:nth-child(2)::after{
+        content:"\f46d";
+        font-family: 'Font Awesome 5 Free'; 
+        font-weight: 900;
+        position: absolute;
+        left:85%; 
+        top: 70%;
+        font-size: 90px;
+        opacity: 20%;
+        }
+     .card:nth-child(3)::after{
+        content:"\f017";
+            font-family: 'Font Awesome 5 Free'; 
+            font-weight: 900;
+            position: absolute;
+            left: 85%; 
+            top: 70%;
+            font-size: 90px;
+            opacity: 20%;
+            }
+            
+    
+    .card{
+        position: relative;
+    width:350px ;
+    height: 240px;
+    background-color: rgba(27,118,209,255);
+    overflow: hidden;
+    }
+    .card-content{
+        /* margin-left: 20px;
+        margin-top: 10px; */
+        padding: 20px;
+    }
+    .cardP p{
+        font-size: 16px;
+        color: white;
+        margin-bottom: 15px !important;
+    }
+    
+    .cardH1 h1{
+    font-size:20px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    }
+    
+    .cardP2{
+        display:flex ;
+        font-size: 14px;
+        color: white;
+        gap: 7px;
+    }
+    .cardP2 i{
+        font-size: 10px;
+     margin-top: 3px;
+    
+    }
+    .cardP-3{
+        color: white;
+        display: flex;
+        font-size: 16px;
+        gap: 75px;
+    }
+    
+    .carousel-control-prev{
+        border: solid;
+        border-radius: 100%;
+        border-width:1px ;
+        height: 40px;
+        width: 40px;
+        top: 50%;
+        left: 5%;
+        background-color: rgba(27,118,209,255);
+       
+    }
+    .carousel-control-next{
+        border: solid;
+        border-radius: 100%;
+        border-width:1px ;
+        height: 40px;
+        width: 40px;
+        top: 50%;
+        right: 5%;
+        background-color: rgba(27,118,209,255);
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        height: 13px;
+        width: 13px;
+    }
+
+}
+ 
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+
+    .section-banner{
+        width: 100%;
+     }
+     .fluidd{
+         padding: 0;
+         width: 100%;
+     
+     }
+     .carousel-item img{
+     height: 600px;
+     object-fit: cover;
+     }
+     .carousel-item {
+     
+         position: relative;
+     }
+     .content{
+     width: 100%;
+         position: absolute;
+         top: 10%;
+         right:3%;
+     }
+     .content-h1 h1{
+     font-size: 16px;
+     font-weight: bold;
+     margin-bottom: 1rem;
+     
+     }
+     .content-h1 h1 span{
+     color:rgba(27,118,209,255) ;
+     }
+     .content-p p{
+         font-size: 10px;
+         /* margin-left:15%; */
+     }
+     .banner-btn{
+         display: flex;
+         justify-content: flex-start;
+         /* margin-left:15%; */
+        gap: 10px;
+     
+     }
+     .banner-btn .btnApmnt{
+         border: none;
+         color: white;
+         width:100px ;
+         height: 30px;
+         background-color: rgba(27,118,209,255);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         border-radius: 3px;
+       font-size: 10px;
+     }
+     .banner-btn .btnAbout{
+         border: none;
+         color: white;
+         width:100px ;
+         height: 30px;
+         background-color: rgba(44,45,63,255);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         border-radius: 5px;
+       font-size: 10px;
+     }
+     .content h1{
+         margin-left:15%;
+     
+        
+     }
+     .cards{
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-wrap: wrap;
+         gap: 10px;
+         position: absolute;
+         top: 78%;
+         
+     }
+     .card:nth-child(1)::after{
+     content:"\f0f9";
+     font-family: 'Font Awesome 5 Free'; 
+     font-weight: 900;
+     position: absolute;
+     left: 80%; 
+     top: 70%;
+     font-size: 90px;
+     opacity: 20%;
+     }
+     .card:nth-child(2)::after{
+         content:"\f46d";
+         font-family: 'Font Awesome 5 Free'; 
+         font-weight: 900;
+         position: absolute;
+         left:85%; 
+         top: 70%;
+         font-size: 90px;
+         opacity: 20%;
+         }
+      .card:nth-child(3)::after{
+         content:"\f017";
+             font-family: 'Font Awesome 5 Free'; 
+             font-weight: 900;
+             position: absolute;
+             left: 85%; 
+             top: 70%;
+             font-size: 90px;
+             opacity: 20%;
+             }
+             
+     
+     .card{
+         position: relative;
+     width:350px ;
+     height: 240px;
+     background-color: rgba(27,118,209,255);
+     overflow: hidden;
+     }
+     .card-content{
+         /* margin-left: 20px;
+         margin-top: 10px; */
+         padding: 20px;
+     }
+     .cardP p{
+         font-size: 16px;
+         color: white;
+         margin-bottom: 15px !important;
+     }
+     
+     .cardH1 h1{
+     font-size:20px;
+     color: white;
+     font-weight: 500;
+     margin-bottom: 1rem;
+     }
+     
+     .cardP2{
+         display:flex ;
+         font-size: 14px;
+         color: white;
+         gap: 7px;
+     }
+     .cardP2 i{
+         font-size: 10px;
+      margin-top: 3px;
+     
+     }
+     .cardP-3{
+         color: white;
+         display: flex;
+         font-size: 16px;
+         gap: 75px;
+     }
+     
+     .carousel-control-prev{
+         border: solid;
+         border-radius: 100%;
+         border-width:1px ;
+         height: 40px;
+         width: 40px;
+         top: 50%;
+         left: 5%;
+         background-color: rgba(27,118,209,255);
+        
+     }
+     .carousel-control-next{
+         border: solid;
+         border-radius: 100%;
+         border-width:1px ;
+         height: 40px;
+         width: 40px;
+         top: 50%;
+         right: 5%;
+         background-color: rgba(27,118,209,255);
+     }
+     .carousel-control-next-icon, .carousel-control-prev-icon{
+         height: 13px;
+         width: 13px;
+     }
+ 
+ }
+  
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+ 
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+
+
+    .section-banner{
+        height: 600px;
+    }
+    .fluidd{
+        padding: 0;
+    
+    }
+    .carousel-item img{
+    height: 600px;
+    object-fit: cover;
+    }
+    .carousel-item {
+    
+        position: relative;
+    }
+    .content{
+    width: 100%;
+        position: absolute;
+        top: 15%;
+        right:3%;
+    }
+    .content-h1 h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    
+    }
+    .content-h1 h1 span{
+    color:rgba(27,118,209,255) ;
+    }
+    .content-p p{
+        font-size: 12px;
+        /* margin-left:15%; */
+    }
+    .banner-btn{
+        display: flex;
+        justify-content: flex-start;
+        /* margin-left:15%; */
+       gap: 10px;
+    
+    }
+    .banner-btn .btnApmnt{
+        border: none;
+        color: white;
+        width:140px ;
+        height: 35px;
+        background-color: rgba(27,118,209,255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+      font-size: small;
+    }
+    .banner-btn .btnAbout{
+        border: none;
+        color: white;
+        width:140px ;
+        height: 35px;
+        background-color: rgba(44,45,63,255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+      font-size: small;
+    }
+    .content h1{
+        margin-left:15%;
+    
+       
+    }
+    .cards{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        position: absolute;
+        top: 78%;
+        
+    }
+    .card:nth-child(1)::after{
+    content:"\f0f9";
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    left: 80%; 
+    top: 70%;
+    font-size: 90px;
+    opacity: 20%;
+    }
+    .card:nth-child(2)::after{
+        content:"\f46d";
+        font-family: 'Font Awesome 5 Free'; 
+        font-weight: 900;
+        position: absolute;
+        left:85%; 
+        top: 70%;
+        font-size: 90px;
+        opacity: 20%;
+        }
+     .card:nth-child(3)::after{
+        content:"\f017";
+            font-family: 'Font Awesome 5 Free'; 
+            font-weight: 900;
+            position: absolute;
+            left: 85%; 
+            top: 70%;
+            font-size: 90px;
+            opacity: 20%;
+            }
+            
+    
+    .card{
+        position: relative;
+    width:410px ;
+    height: 280px;
+    background-color: rgba(27,118,209,255);
+    overflow: hidden;
+    }
+    .card-content{
+        /* margin-left: 20px;
+        margin-top: 10px; */
+        padding: 20px;
+    }
+    .cardP p{
+        font-size: 16px;
+        color: white;
+        margin-bottom: 15px !important;
+    }
+    
+    .cardH1 h1{
+    font-size:20px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    }
+    
+    .cardP2{
+        display:flex ;
+        font-size: 14px;
+        color: white;
+        gap: 7px;
+    }
+    .cardP2 i{
+        font-size: 10px;
+     margin-top: 3px;
+    
+    }
+    .cardP-3{
+        color: white;
+        display: flex;
+        font-size: 16px;
+        gap: 75px;
+    }
+    
+    .carousel-control-prev{
+        border: solid;
+        border-radius: 100%;
+        border-width:1px ;
+        height: 40px;
+        width: 40px;
+        top: 50%;
+        left: 5%;
+        background-color: rgba(27,118,209,255);
+       
+    }
+    .carousel-control-next{
+        border: solid;
+        border-radius: 100%;
+        border-width:1px ;
+        height: 40px;
+        width: 40px;
+        top: 50%;
+        right: 5%;
+        background-color: rgba(27,118,209,255);
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        height: 13px;
+        width: 13px;
+    }
+    
+
+
+
+
+}
+ 
+@media only screen and (min-width: 992px) and (max-width: 1200.98px) {
+
+    .section-banner{
+        height: 600px;
+    }
+    .fluidd{
+        padding: 0;
+    
+    }
+    .carousel-item img{
+    height: 600px;
+    object-fit: cover;
+    }
+    .carousel-item {
+    
+        position: relative;
+    }
+    .content{
+    width: 100%;
+        position: absolute;
+        top: 15%;
+        right:3%;
+    }
+    .content-h1 h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    
+    }
+    .content-h1 h1 span{
+    color:rgba(27,118,209,255) ;
+    }
+    .content-p p{
+        font-size: 12px;
+        /* margin-left:15%; */
+    }
+    .banner-btn{
+        display: flex;
+        justify-content: flex-start;
+        /* margin-left:15%; */
+       gap: 10px;
+    
+    }
+    .banner-btn .btnApmnt{
+        border: none;
+        color: white;
+        width:140px ;
+        height: 35px;
+        background-color: rgba(27,118,209,255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+      font-size: small;
+    }
+    .banner-btn .btnAbout{
+        border: none;
+        color: white;
+        width:140px ;
+        height: 35px;
+        background-color: rgba(44,45,63,255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+      font-size: small;
+    }
+    .content h1{
+        margin-left:15%;
+    
+       
+    }
+    .cards{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        position: absolute;
+        top: 78%;
+        
+    }
+    .card:nth-child(1)::after{
+    content:"\f0f9";
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    left: 80%; 
+    top: 70%;
+    font-size: 90px;
+    opacity: 20%;
+    }
+    .card:nth-child(2)::after{
+        content:"\f46d";
+        font-family: 'Font Awesome 5 Free'; 
+        font-weight: 900;
+        position: absolute;
+        left:85%; 
+        top: 70%;
+        font-size: 90px;
+        opacity: 20%;
+        }
+     .card:nth-child(3)::after{
+        content:"\f017";
+            font-family: 'Font Awesome 5 Free'; 
+            font-weight: 900;
+            position: absolute;
+            left: 85%; 
+            top: 70%;
+            font-size: 90px;
+            opacity: 20%;
+            }
+            
+    
+    .card{
+        position: relative;
+    width:300px ;
+    height: 250px;
+    background-color: rgba(27,118,209,255);
+    overflow: hidden;
+    }
+    .card-content{
+        /* margin-left: 20px;
+        margin-top: 10px; */
+        padding: 20px;
+    }
+    .cardP p{
+        font-size: 16px;
+        color: white;
+        margin-bottom: 15px !important;
+    }
+    
+    .cardH1 h1{
+    font-size:18px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    }
+    
+    .cardP2{
+        display:flex ;
+        font-size: 12px;
+        color: white;
+        gap: 7px;
+    }
+    .cardP2 i{
+        font-size: 10px;
+     margin-top: 3px;
+    
+    }
+    .cardP-3{
+        color: white;
+        display: flex;
+        font-size: 14px;
+        gap: 75px;
+    }
+    
+    .carousel-control-prev{
+        border: solid;
+        border-radius: 100%;
+        border-width:1px ;
+        height: 40px;
+        width: 40px;
+        top: 50%;
+        left: 5%;
+        background-color: rgba(27,118,209,255);
+       
+    }
+    .carousel-control-next{
+        border: solid;
+        border-radius: 100%;
+        border-width:1px ;
+        height: 40px;
+        width: 40px;
+        top: 50%;
+        right: 5%;
+        background-color: rgba(27,118,209,255);
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        height: 13px;
+        width: 13px;
+    }
+    
+}
+ 
+@media only screen and (min-width: 1201px) and (max-width: 1300.98px) {
+    .section-banner{
+        height: 600px;
+    }
+    .fluidd{
+        padding: 0;
+    
+    }
+    .carousel-item img{
+    height: 600px;
+    object-fit: cover;
+    }
+    .carousel-item {
+    
+        position: relative;
+    }
+    .content{
+    width: 100%;
+        position: absolute;
+        top: 15%;
+        right:3%;
+    }
+    .content-h1 h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    
+    }
+    .content-h1 h1 span{
+    color:rgba(27,118,209,255) ;
+    }
+    .content-p p{
+        font-size: 12px;
+        /* margin-left:15%; */
+    }
+    .banner-btn{
+        display: flex;
+        justify-content: flex-start;
+        /* margin-left:15%; */
+       gap: 10px;
+    
+    }
+    .banner-btn .btnApmnt{
+        border: none;
+        color: white;
+        width:140px ;
+        height: 35px;
+        background-color: rgba(27,118,209,255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+      font-size: small;
+    }
+    .banner-btn .btnAbout{
+        border: none;
+        color: white;
+        width:140px ;
+        height: 35px;
+        background-color: rgba(44,45,63,255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+      font-size: small;
+    }
+    .content h1{
+        margin-left:15%;
+    
+       
+    }
+    .cards{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        position: absolute;
+        top: 78%;
+        
+    }
+    .card:nth-child(1)::after{
+    content:"\f0f9";
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    left: 80%; 
+    top: 70%;
+    font-size: 90px;
+    opacity: 20%;
+    }
+    .card:nth-child(2)::after{
+        content:"\f46d";
+        font-family: 'Font Awesome 5 Free'; 
+        font-weight: 900;
+        position: absolute;
+        left:85%; 
+        top: 70%;
+        font-size: 90px;
+        opacity: 20%;
+        }
+     .card:nth-child(3)::after{
+        content:"\f017";
+            font-family: 'Font Awesome 5 Free'; 
+            font-weight: 900;
+            position: absolute;
+            left: 85%; 
+            top: 70%;
+            font-size: 90px;
+            opacity: 20%;
+            }
+            
+    
+    .card{
+        position: relative;
+    width:350px ;
+    height: 280px;
+    background-color: rgba(27,118,209,255);
+    overflow: hidden;
+    }
+    .card-content{
+        /* margin-left: 20px;
+        margin-top: 10px; */
+        padding: 20px;
+    }
+    .cardP p{
+        font-size: 16px;
+        color: white;
+        margin-bottom: 15px !important;
+    }
+    
+    .cardH1 h1{
+    font-size:20px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    }
+    
+    .cardP2{
+        display:flex ;
+        font-size: 14px;
+        color: white;
+        gap: 7px;
+    }
+    .cardP2 i{
+        font-size: 10px;
+     margin-top: 3px;
+    
+    }
+    .cardP-3{
+        color: white;
+        display: flex;
+        font-size: 16px;
+        gap: 75px;
+    }
+    
+    .carousel-control-prev{
+        border: solid;
+        border-radius: 100%;
+        border-width:1px ;
+        height: 40px;
+        width: 40px;
+        top: 50%;
+        left: 5%;
+        background-color: rgba(27,118,209,255);
+       
+    }
+    .carousel-control-next{
+        border: solid;
+        border-radius: 100%;
+        border-width:1px ;
+        height: 40px;
+        width: 40px;
+        top: 50%;
+        right: 5%;
+        background-color: rgba(27,118,209,255);
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        height: 13px;
+        width: 13px;
+    }
+    
+}
+ 
+@media only screen and (min-width: 1301px) and (max-width: 1500.98px) {
+
+    .section-banner{
+        height: 600px;
+    }
+    .fluidd{
+        padding: 0;
+    
+    }
+    .carousel-item img{
+    height: 600px;
+    object-fit: cover;
+    }
+    .carousel-item {
+    
+        position: relative;
+    }
+    .content{
+    width: 100%;
+        position: absolute;
+        top: 15%;
+        right:3%;
+    }
+    .content-h1 h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    
+    }
+    .content-h1 h1 span{
+    color:rgba(27,118,209,255) ;
+    }
+    .content-p p{
+        font-size: 12px;
+        /* margin-left:15%; */
+    }
+    .banner-btn{
+        display: flex;
+        justify-content: flex-start;
+        /* margin-left:15%; */
+       gap: 10px;
+    
+    }
+    .banner-btn .btnApmnt{
+        border: none;
+        color: white;
+        width:140px ;
+        height: 35px;
+        background-color: rgba(27,118,209,255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+      font-size: small;
+    }
+    .banner-btn .btnAbout{
+        border: none;
+        color: white;
+        width:140px ;
+        height: 35px;
+        background-color: rgba(44,45,63,255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+      font-size: small;
+    }
+    .content h1{
+        margin-left:15%;
+    
+       
+    }
+    .cards{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        position: absolute;
+        top: 78%;
+        
+    }
+    .card:nth-child(1)::after{
+    content:"\f0f9";
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    left: 80%; 
+    top: 70%;
+    font-size: 90px;
+    opacity: 20%;
+    }
+    .card:nth-child(2)::after{
+        content:"\f46d";
+        font-family: 'Font Awesome 5 Free'; 
+        font-weight: 900;
+        position: absolute;
+        left:85%; 
+        top: 70%;
+        font-size: 90px;
+        opacity: 20%;
+        }
+     .card:nth-child(3)::after{
+        content:"\f017";
+            font-family: 'Font Awesome 5 Free'; 
+            font-weight: 900;
+            position: absolute;
+            left: 85%; 
+            top: 70%;
+            font-size: 90px;
+            opacity: 20%;
+            }
+            
+    
+    .card{
+        position: relative;
+    width:350px ;
+    height: 280px;
+    background-color: rgba(27,118,209,255);
+    overflow: hidden;
+    }
+    .card-content{
+        /* margin-left: 20px;
+        margin-top: 10px; */
+        padding: 20px;
+    }
+    .cardP p{
+        font-size: 16px;
+        color: white;
+        margin-bottom: 15px !important;
+    }
+    
+    .cardH1 h1{
+    font-size:20px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    }
+    
+    .cardP2{
+        display:flex ;
+        font-size: 14px;
+        color: white;
+        gap: 7px;
+    }
+    .cardP2 i{
+        font-size: 10px;
+     margin-top: 3px;
+    
+    }
+    .cardP-3{
+        color: white;
+        display: flex;
+        font-size: 16px;
+        gap: 75px;
+    }
+    
+    .carousel-control-prev{
+        border: solid;
+        border-radius: 100%;
+        border-width:1px ;
+        height: 40px;
+        width: 40px;
+        top: 50%;
+        left: 5%;
+        background-color: rgba(27,118,209,255);
+       
+    }
+    .carousel-control-next{
+        border: solid;
+        border-radius: 100%;
+        border-width:1px ;
+        height: 40px;
+        width: 40px;
+        top: 50%;
+        right: 5%;
+        background-color: rgba(27,118,209,255);
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        height: 13px;
+        width: 13px;
+    }
+    
+}
+@media only screen and (min-width:1501px) and (max-width:1700.98px){
+    .section-banner{
+        height: 600px;
+    }
+    .fluidd{
+        padding: 0;
+    
+    }
+    .carousel-item img{
+    height: 600px;
+    object-fit: cover;
+    }
+    .carousel-item {
+    
+        position: relative;
+    }
+    .content{
+    width: 100%;
+        position: absolute;
+        top: 15%;
+        right:3%;
+    }
+    .content-h1 h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    
+    }
+    .content-h1 h1 span{
+    color:rgba(27,118,209,255) ;
+    }
+    .content-p p{
+        font-size: 12px;
+        /* margin-left:15%; */
+    }
+    .banner-btn{
+        display: flex;
+        justify-content: flex-start;
+        /* margin-left:15%; */
+       gap: 10px;
+    
+    }
+    .banner-btn .btnApmnt{
+        border: none;
+        color: white;
+        width:140px ;
+        height: 35px;
+        background-color: rgba(27,118,209,255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+      font-size: small;
+    }
+    .banner-btn .btnAbout{
+        border: none;
+        color: white;
+        width:140px ;
+        height: 35px;
+        background-color: rgba(44,45,63,255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+      font-size: small;
+    }
+    .content h1{
+        margin-left:15%;
+    
+       
+    }
+    .cards{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        position: absolute;
+        top: 78%;
+        
+    }
+    .card:nth-child(1)::after{
+    content:"\f0f9";
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    left: 80%; 
+    top: 70%;
+    font-size: 90px;
+    opacity: 20%;
+    }
+    .card:nth-child(2)::after{
+        content:"\f46d";
+        font-family: 'Font Awesome 5 Free'; 
+        font-weight: 900;
+        position: absolute;
+        left:85%; 
+        top: 70%;
+        font-size: 90px;
+        opacity: 20%;
+        }
+     .card:nth-child(3)::after{
+        content:"\f017";
+            font-family: 'Font Awesome 5 Free'; 
+            font-weight: 900;
+            position: absolute;
+            left: 85%; 
+            top: 70%;
+            font-size: 90px;
+            opacity: 20%;
+            }
+            
+    
+    .card{
+        position: relative;
+    width:350px ;
+    height: 280px;
+    background-color: rgba(27,118,209,255);
+    overflow: hidden;
+    }
+    .card-content{
+        /* margin-left: 20px;
+        margin-top: 10px; */
+        padding: 20px;
+    }
+    .cardP p{
+        font-size: 16px;
+        color: white;
+        margin-bottom: 15px !important;
+    }
+    
+    .cardH1 h1{
+    font-size:20px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    }
+    
+    .cardP2{
+        display:flex ;
+        font-size: 14px;
+        color: white;
+        gap: 7px;
+    }
+    .cardP2 i{
+        font-size: 10px;
+     margin-top: 3px;
+    
+    }
+    .cardP-3{
+        color: white;
+        display: flex;
+        font-size: 16px;
+        gap: 75px;
+    }
+    
+    .carousel-control-prev{
+        border: solid;
+        border-radius: 100%;
+        border-width:1px ;
+        height: 40px;
+        width: 40px;
+        top: 50%;
+        left: 5%;
+        background-color: rgba(27,118,209,255);
+       
+    }
+    .carousel-control-next{
+        border: solid;
+        border-radius: 100%;
+        border-width:1px ;
+        height: 40px;
+        width: 40px;
+        top: 50%;
+        right: 5%;
+        background-color: rgba(27,118,209,255);
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        height: 13px;
+        width: 13px;
+    }
+}
+@media only screen and (min-width:1701px) and (max-width:1900.98px){
+    .section-banner{
+        height: 600px;
+    }
+    .fluidd{
+        padding: 0;
+    
+    }
+    .carousel-item img{
+    height: 600px;
+    object-fit: cover;
+    }
+    .carousel-item {
+    
+        position: relative;
+    }
+    .content{
+    width: 100%;
+        position: absolute;
+        top: 15%;
+        right:2%;
+    }
+    .content-h1 h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    
+    }
+    .content-h1 h1 span{
+    color:rgba(27,118,209,255) ;
+    }
+    .content-p p{
+        font-size: 12px;
+        /* margin-left:15%; */
+    }
+    .banner-btn{
+        display: flex;
+        justify-content: flex-start;
+        /* margin-left:15%; */
+       gap: 10px;
+    
+    }
+    .banner-btn .btnApmnt{
+        border: none;
+        color: white;
+        width:140px ;
+        height: 35px;
+        background-color: rgba(27,118,209,255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+      font-size: small;
+    }
+    .banner-btn .btnAbout{
+        border: none;
+        color: white;
+        width:140px ;
+        height: 35px;
+        background-color: rgba(44,45,63,255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+      font-size: small;
+    }
+    .content h1{
+        margin-left:15%;
+    
+       
+    }
+    .cards{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        position: absolute;
+        top: 78%;
+        
+    }
+    .card:nth-child(1)::after{
+    content:"\f0f9";
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    left: 80%; 
+    top: 70%;
+    font-size: 90px;
+    opacity: 20%;
+    }
+    .card:nth-child(2)::after{
+        content:"\f46d";
+        font-family: 'Font Awesome 5 Free'; 
+        font-weight: 900;
+        position: absolute;
+        left:85%; 
+        top: 70%;
+        font-size: 90px;
+        opacity: 20%;
+        }
+     .card:nth-child(3)::after{
+        content:"\f017";
+            font-family: 'Font Awesome 5 Free'; 
+            font-weight: 900;
+            position: absolute;
+            left: 85%; 
+            top: 70%;
+            font-size: 90px;
+            opacity: 20%;
+            }
+            
+    
+    .card{
+        position: relative;
+    width:350px ;
+    height: 280px;
+    background-color: rgba(27,118,209,255);
+    overflow: hidden;
+    }
+    .card-content{
+        /* margin-left: 20px;
+        margin-top: 10px; */
+        padding: 20px;
+    }
+    .cardP p{
+        font-size: 16px;
+        color: white;
+        margin-bottom: 15px !important;
+    }
+    
+    .cardH1 h1{
+    font-size:20px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    }
+    
+    .cardP2{
+        display:flex ;
+        font-size: 14px;
+        color: white;
+        gap: 7px;
+    }
+    .cardP2 i{
+        font-size: 10px;
+     margin-top: 3px;
+    
+    }
+    .cardP-3{
+        color: white;
+        display: flex;
+        font-size: 16px;
+        gap: 75px;
+    }
+    
+    .carousel-control-prev{
+        border: solid;
+        border-radius: 100%;
+        border-width:1px ;
+        height: 40px;
+        width: 40px;
+        top: 50%;
+        left: 5%;
+        background-color: rgba(27,118,209,255);
+       
+    }
+    .carousel-control-next{
+        border: solid;
+        border-radius: 100%;
+        border-width:1px ;
+        height: 40px;
+        width: 40px;
+        top: 50%;
+        right: 5%;
+        background-color: rgba(27,118,209,255);
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        height: 13px;
+        width: 13px;
+    }
+}
+@media only screen and (min-width:1901px) and (max-width:2100.98px){
+    .section-banner{
+        height: 600px;
+    }
+    .fluidd{
+        padding: 0;
+    
+    }
+    .carousel-item img{
+    height: 600px;
+    object-fit: cover;
+    }
+    .carousel-item {
+    
+        position: relative;
+    }
+    .content{
+    width: 100%;
+        position: absolute;
+        top: 15%;
+        right:0;
+    }
+    .content-h1 h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    
+    }
+    .content-h1 h1 span{
+    color:rgba(27,118,209,255) ;
+    }
+    .content-p p{
+        font-size: 12px;
+        /* margin-left:15%; */
+    }
+    .banner-btn{
+        display: flex;
+        justify-content: flex-start;
+        /* margin-left:15%; */
+       gap: 10px;
+    
+    }
+    .banner-btn .btnApmnt{
+        border: none;
+        color: white;
+        width:140px ;
+        height: 35px;
+        background-color: rgba(27,118,209,255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+      font-size: small;
+    }
+    .banner-btn .btnAbout{
+        border: none;
+        color: white;
+        width:140px ;
+        height: 35px;
+        background-color: rgba(44,45,63,255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+      font-size: small;
+    }
+    /* .content h1{
+        margin-left:15%;
+    
+       
+    } */
+    .cards{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        position: absolute;
+        top: 78%;
+        
+    }
+    .card:nth-child(1)::after{
+    content:"\f0f9";
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    position: absolute;
+    left: 80%; 
+    top: 70%;
+    font-size: 90px;
+    opacity: 20%;
+    }
+    .card:nth-child(2)::after{
+        content:"\f46d";
+        font-family: 'Font Awesome 5 Free'; 
+        font-weight: 900;
+        position: absolute;
+        left:85%; 
+        top: 70%;
+        font-size: 90px;
+        opacity: 20%;
+        }
+     .card:nth-child(3)::after{
+        content:"\f017";
+            font-family: 'Font Awesome 5 Free'; 
+            font-weight: 900;
+            position: absolute;
+            left: 85%; 
+            top: 70%;
+            font-size: 90px;
+            opacity: 20%;
+            }
+            
+    
+    .card{
+        position: relative;
+    width:350px ;
+    height: 280px;
+    background-color: rgba(27,118,209,255);
+    overflow: hidden;
+    }
+    .card-content{
+        /* margin-left: 20px;
+        margin-top: 10px; */
+        padding: 20px;
+    }
+    .cardP p{
+        font-size: 16px;
+        color: white;
+        /* margin-bottom: 15px !important; */
+    }
+    
+    .cardH1 h1{
+    font-size:20px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    }
+    
+    .cardP2{
+        display:flex ;
+        font-size: 14px;
+        color: white;
+        gap: 7px;
+    }
+    .cardP2 i{
+        font-size: 10px;
+     margin-top: 3px;
+    
+    }
+    .cardP-3{
+        color: white;
+        display: flex;
+        font-size: 16px;
+        gap: 75px;
+    }
+    
+    .carousel-control-prev{
+        border: solid;
+        border-radius: 100%;
+        border-width:1px ;
+        height: 40px;
+        width: 40px;
+        top: 50%;
+        left: 5%;
+        background-color: rgba(27,118,209,255);
+       
+    }
+    .carousel-control-next{
+        border: solid;
+        border-radius: 100%;
+        border-width:1px ;
+        height: 40px;
+        width: 40px;
+        top: 50%;
+        right: 5%;
+        background-color: rgba(27,118,209,255);
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        height: 13px;
+        width: 13px;
+    }
+
+    .content-container .container{
+        top: 20%;
+        left: 28%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+    
+    }.slider1{
+        background-image: url("assets/doctor.jpg");
+       background-size: cover;
+       background-position: center;
+        object-fit: cover;
+        position: relative;
+        height: 600px;
+        width: 100%;
+    
+    }
+}
